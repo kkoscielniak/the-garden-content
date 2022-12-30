@@ -1,5 +1,5 @@
 ---
-title: Mocking fundamentals
+title: Mocking
 weight: 2
 ---
 

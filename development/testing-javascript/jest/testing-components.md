@@ -475,9 +475,6 @@ test("landing on a bad page shows no match component", () => {
 });
 ```
 
-[[course-notes/testing-javascript/jest/testing-redux]]
-[[course-notes/testing-javascript/jest/testing-hooks]]
-
 ## Testing the unmounting of the component
 
 Let's assume we have the `Countdown` function component that will cleanup in `useEffect`/`useLayoutEffect`/`componentWillUnmount`.
@@ -547,5 +544,3 @@ To make sure every intervals were cleared properly, we can use `
 After umnounting, we're calling `jest.runOnlyPendingTimers()` to see if there were any non-cleared intervals (we need to wrap it in `act`). 8
 
 Without proper cleanup in the component, the error would be thrown here (that's why we're expecting errors not to be thrown).
-
-[[course-notes/testing-javascript/jest/integration-tests-using-rtl]]
