@@ -1,4 +1,4 @@
 ---
 title: Testing with Cypress
-weight: 5
+weight: 6
 ---

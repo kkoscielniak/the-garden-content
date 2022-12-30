@@ -1,6 +1,6 @@
 ---
 title: Static Analysis
-weight: 2
+weight: 3
 ---
 
 *Static analysis* is a method of debugging that is done by automatically examining the source code **without having to execute the program** with tools like `eslint`, `prettier`, `typescript`, `husky`.
