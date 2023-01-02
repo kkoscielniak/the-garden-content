@@ -1,5 +1,5 @@
 ---
-title: Regular Expressions Cheat Sheet
+title: Regular Expressions Cheatsheet
 ---
 Regular expression - a sequence of characters representing a pattern. 
 
