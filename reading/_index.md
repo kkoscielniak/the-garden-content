@@ -3,8 +3,11 @@ title: Reading
 ---
 Here's the **absolutely incomplete** list of what I've read so far. Sometimes with summary and booknotes.
 
-## Currently reading 
-- 📱 [The Pentester's Blueprint](https://www.amazon.com/Pentester-BluePrint-Your-Guide-Being/dp/1119684307) - Phillip L. Wylie, Kim Crawley
+## Currently reading
+- 📱 [Social Engineering. The Art Of Human Hacking](https://www.wiley.com/en-us/Social+Engineering:+The+Art+of+Human+Hacking-p-9780470639535) - Christopher Hadnagy
+
+## 2023
+- 📱 [The Pentester's Blueprint](https://www.amazon.com/Pentester-BluePrint-Your-Guide-Being/dp/1119684307) - Phillip L. Wylie, Kim Crawley - ⭐️⭐️⭐️⭐️
 
 ## 2022
 - 🎧 [Deep Work](https://www.amazon.com/Deep-Work-Focused-Success-Distracted/dp/1455586692) - Cal Newport - ⭐️⭐️⭐️⭐️⭐️
@@ -13,15 +16,21 @@ Here's the **absolutely incomplete** list of what I've read so far. Sometimes wi
 - 📱 [[reading/notes/kaizen|One Small Step Can Change Your Life: The Kaizen Way]] 🇵🇱 - Robert Maurer - ⭐️⭐️⭐️
 
 ## 2021
-
 - 🎧 [Essentialism: The Disciplined Pursuit of Less](https://www.amazon.com/Essentialism-Disciplined-Pursuit-Greg-McKeown/dp/0804137382) - Greg McKeown - ⭐️⭐️⭐️⭐️⭐️
 - 🎧 [Ego is the Enemy](http://egoistheenemy.com) - Ryan Holiday - ⭐️⭐️⭐️⭐️⭐️
 - 🎧 [The Checklist Manifesto](https://www.amazon.com/The-Checklist-Manifesto-audiobook/dp/B0031Q9ZWY) - Atul Gawande - ⭐️⭐️⭐️⭐️
 - 📱 [[reading/notes/lifechanging-magic-of-tidying-up|The Life-changing Magic of Tidying Up]] - Marie Kondo - ⭐️⭐️⭐️⭐️⭐️
 
 ## 2020
-
+- 🎧 [Atomic Habits](https://www.audible.com/pd/Atomic-Habits-Audiobook/1524779261) - James Clear
+- 🎧 [The Total Money Makeover](https://www.audible.com/pd/The-Total-Money-Makeover-Audiobook/B002UUKIR8) - Dave Ramsay
+- 📱 [The Subtle Art Of Not Giving A Fuck](https://www.amazon.com/Subtle-Art-Not-Giving-Counterintuitive/dp/0062457713) - Mark Manson
+- 📱 [The Bullet Journal Method](https://www.amazon.com/Bullet-Journal-Method-Present-Design/dp/0525533338/) - Ryder Carroll
 - 📱 [Manhood: How to Be a Better Man-or Just Live with One](https://www.amazon.com/Manhood-Better-Man-Just-Live-ebook/dp/B00H6JHR5E) - Terry Crews - ⭐️⭐️⭐️⭐️
 - 📕 [Create or Hate](https://www.amazon.com/Create-Hate-Successful-People-Things/dp/0995404445/) 🇵🇱 - Dan Norris - ⭐️⭐️
+
+## Earlier
+- 📱 [Remote. Office Not Required](https://www.amazon.com/Remote-Office-Required-Jason-Fried/dp/0091954673) - Jason Fried
+- 📱 [Rework](https://www.amazon.com/ReWork-Change-Way-Work-Forever-ebook/dp/B003ELY7PG/) - Jason Fried
 
 📱 - eBook | 🎧 - audiobook | 📕 - paperback | 🇵🇱 - read in Polish
