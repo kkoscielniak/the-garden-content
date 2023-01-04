@@ -16,6 +16,7 @@ Here's the **absolutely incomplete** list of what I've read so far. Sometimes wi
 - 📱 [[reading/notes/kaizen|One Small Step Can Change Your Life: The Kaizen Way]] 🇵🇱 - Robert Maurer - ⭐️⭐️⭐️
 
 ## 2021
+- 📱 [A w Konopiach Strach](https://www.empik.com/a-w-konopiach-strach-vetulani-jerzy-mazurek-maria,p1230754457,ksiazka-p) 🇵🇱 - Jerzy Vetulani, Maria Mazurek - ⭐️⭐️⭐️⭐️
 - 🎧 [Essentialism: The Disciplined Pursuit of Less](https://www.amazon.com/Essentialism-Disciplined-Pursuit-Greg-McKeown/dp/0804137382) - Greg McKeown - ⭐️⭐️⭐️⭐️⭐️
 - 🎧 [Ego is the Enemy](http://egoistheenemy.com) - Ryan Holiday - ⭐️⭐️⭐️⭐️⭐️
 - 🎧 [The Checklist Manifesto](https://www.amazon.com/The-Checklist-Manifesto-audiobook/dp/B0031Q9ZWY) - Atul Gawande - ⭐️⭐️⭐️⭐️
