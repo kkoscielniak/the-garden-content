@@ -1,1 +1,6 @@
-Security operations center
+---
+title: Security operations center
+---
+```
+...
+```
