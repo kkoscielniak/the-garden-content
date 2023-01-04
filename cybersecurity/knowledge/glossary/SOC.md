@@ -1,6 +1,7 @@
 ---
 title: Security operations center
 ---
+
 ```
 ...
 ```
