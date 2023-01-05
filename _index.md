@@ -2,6 +2,7 @@
 title: Home
 enableToc: false
 ---
+
 ## `whoami`
 
 My name is Krystian Kościelniak. I’m a proud husband and father to a sneaky toddler.
@@ -14,5 +15,6 @@ This is my [[others/digital-garden]], my own corner in the web for sharing what
 
 It's pretty empty at the moment, as I am going through a bit of maintenance.
 
-## Wanna talk? 
+## Wanna talk?
+
 Just drop me <a href="mailto:krystiankoscielniak@proton.me">an email</a>, or DM me on [Insta](https://instagram.com/pankoscielniak). I don’t check LinkedIn a lot.
