@@ -2,6 +2,7 @@
 title: MySQL Cheatsheet
 draft: true
 ---
+
 - `SELECT DISTINCT` - brings unique values from the table
 
 ```mysql
@@ -21,10 +22,12 @@ SELECT * FROM sql_store.order_items WHERE order_id = 6 AND quantity * unit_price
 ```
 
 ## `IN` operator
+
 ```mysql
 SELECT * FROM [...]
 WHERE state IN ('GA', 'MW', 'NY')
 ```
+
 czyli `WHERE state = 'GA' OR state = 'MW' OR state = 'NY'`
 
 ```sql
@@ -32,6 +35,7 @@ SELECT * FROM sql_inventory.products WHERE quantity_in_stock IN (49, 38, 72)
 ```
 
 ## `BETWEEN` operator
+
 ```sql
 WHERE points > 1000 AND points < 3000
 ```
@@ -41,13 +45,14 @@ WHERE points BETWEEN 1000 AND 3000
 ```
 
 ```sql
-SELECT * FROM sql_store.customers 
-WHERE birth_date BETWEEN '1990-01-01' AND '2000-01-01' 
+SELECT * FROM sql_store.customers
+WHERE birth_date BETWEEN '1990-01-01' AND '2000-01-01'
 ```
 
 ## `LIKE` operator
+
 - `%` - any number of characters
-	- `b%` - starts with _b_ and then any number of characters
+  - `b%` - starts with _b_ and then any number of characters
 - `_` - single character
 
 ```sql
@@ -61,11 +66,13 @@ SELECT * FROM sql_store.customers WHERE phone LIKE '9%'
 Can be combined with `NOT`
 
 ## `REGEXP` operator
+
 Practically like `LIKE` but allows to use regular expression
 
 ## `IS NULL`
 
 ---
+
 Cheat sheet
 
-- Select 
+- Select

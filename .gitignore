@@ -3,3 +3,4 @@
 .DS_Store
 .nvimlog
 private/
+node_modules/

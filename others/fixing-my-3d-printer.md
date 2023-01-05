@@ -6,6 +6,7 @@ draft: true
 > ❗️ This post is in progress, and will probably be for some time.
 
 ## Preface
+
 In 2018, in a rush of emotion and hype, I bought second-hand [Tevo Tarantula 3D Printer](https://www.tevousa.com/products/tevo-tarantula-3d-printer-kit-with-2-free-rolls-of-filament). Since it was assembled already by the previous owner, I thought I'll just put it in my trunk, ride 60km and put it on my table, where - after plugging it - I could _make stuff_. Just like that. Boy, let me tell you, how wrong I was.
 
 It got decallibrated, the straps went loose, the carriages went wobbly, the 3d-printed enhancements broke. Even the easiest of models were printed badly and I've spent a lot of time to fix that. Yet, even after evenings of tinkering, it was, like, 50% chance that the print will be bad. I didn't know what to do, so I invited my friend over. He helped me to fix that piece of metal and cables and for a while it was okay.
