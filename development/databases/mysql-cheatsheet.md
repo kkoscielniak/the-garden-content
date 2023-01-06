@@ -6,7 +6,7 @@ _SQL_ (Structured Query Language) is a feature-rich language used for querying d
 
 All of these examples are based on MySQL syntax.
 
-## `SELECT`
+## SELECT
 
 Used to retrieve data from the database.
 
@@ -47,7 +47,7 @@ select * from users where username like '%mi%'
 
 `
 
-## `UNION`
+## UNION
 
 The `UNION` statement combines the results of two or more `SELECT` statements to retrieve data from either single or multiple tables.
 
@@ -60,7 +60,7 @@ SELECT name,address,city,postcode from customers UNION SELECT company,address,ci
 
 ```
 
-## `INSERT`
+## INSERT
 
 The `INSERT` statement tells the database we wish to add a new row of data into the table.
 
@@ -69,7 +69,7 @@ The `INSERT` statement tells the database we wish to add a new row of data int
 insert into users (username,password) values ('bob','123');
 ```
 
-## `UPDATE`
+## UPDATE
 
 The `UPDATE` statement tells the DB we wish to update (alter) one or more rows of data within a table.
 
@@ -78,7 +78,7 @@ The `UPDATE` statement tells the DB we wish to update (alter) one or more rows
 update users SET username='root',password='pass123' where username='admin';
 ```
 
-## `DELETE`
+## DELETE
 
 The **DELETE** statement tells the database we wish to delete one or more rows of data.
 
@@ -90,15 +90,17 @@ delete from users where username='martin';
 Apart from missing the columns you wish to be returned, the format of this query is very similar to the `SELECT`. You can specify precisely which data to delete using the `WHERE` clause and the number of rows to be deleted using the `LIMIT` clause.
 
 ## Methods
-### `database()`
+
+### database()
+
 Returns the db name
 
-### `group_concat(table_name)`
+### group_concat(table_name)
 
-Gets the specified column from multiple returned rows and puts it into one string separated by commas. 
+Gets the specified column from multiple returned rows and puts it into one string separated by commas.
 
+## information_schema
 
-## `information_schema`
 Contains information about all the databases and tables the user has access to.
 
 ```sql
@@ -108,4 +110,3 @@ SELECT 1,2,group_concat(column_name) FROM information_schema.columns WHERE table
 
 SELECT 1,2,group_concat(username,':',password SEPARATOR '<br>') FROM staff_users
 ```
-

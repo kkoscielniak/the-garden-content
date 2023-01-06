@@ -1,4 +1,5 @@
 ---
 title: Glossary
 ---
-Some useful definitions. 
+
+Some useful definitions.
