@@ -1,6 +1,7 @@
 ---
 title: Using fake data in tests
 ---
+
 It's actually better to generate data for tests than hardcoding it. The data itself is not important, so it doesn't matter if the hardcoded string is `Test title` from the tests standpoint. This bloats the test cases and may hint that the string is important, even if it isn't.
 
 > [!tip] We need to know what we want to _communicate_ with our tests.

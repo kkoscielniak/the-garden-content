@@ -2,7 +2,8 @@
 title: Simple testing framework in JS
 moccaOrder: 1
 ---
-Here's an example of how the simple, `jest`-like testing framework would look like. 
+
+Here's an example of how the simple, `jest`-like testing framework would look like.
 
 ## The simplest test
 

@@ -1,6 +1,7 @@
 ---
 title: Testing Redux
 ---
+
 ## Redux store setup
 
 We have the code to be tested as follows:

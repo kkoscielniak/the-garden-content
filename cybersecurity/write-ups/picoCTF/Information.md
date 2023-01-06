@@ -1,16 +1,18 @@
 ---
 title: Information
 ---
+
 [Link to the exercise](https://play.picoctf.org/practice/challenge/186)
 
 ## Steps
+
 First, I've checked the filetype with the `file cat.jpeg` command to check if I'm dealing with a JPG file for sure, as I remember in the [[Matryoshka Dolls Writeup|Matryoshka doll]] exercise, the attached `dolls.jpg` was, in fact, a PNG.
 
 ```
 cat.jpeg: JPEG image data, JFIF standard 1.02, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 2560x1598, components 3
 ```
 
-Then I tried to check for embedded files inside with `binwalk -e cat.jpeg`, but without results. The `strings` command didn't provide anything valuable either. 
+Then I tried to check for embedded files inside with `binwalk -e cat.jpeg`, but without results. The `strings` command didn't provide anything valuable either.
 
 I forgot to check the EXIF data, so I went with `exiftool cat.jpeg` which responded with:
 
@@ -46,7 +48,8 @@ Image Size                      : 2560x1598
 Megapixels                      : 4.1
 ```
 
-The `License` field looked a bit odd, so I tried to decode it with a [base64 decoder](https://www.base64decode.org), and voila! 
+The `License` field looked a bit odd, so I tried to decode it with a [base64 decoder](https://www.base64decode.org), and voila!
 
 ## Flag
+
 `picoCTF{the_m3tadata_1s_modified}`

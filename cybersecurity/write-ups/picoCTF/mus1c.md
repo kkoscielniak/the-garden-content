@@ -1,10 +1,13 @@
 ---
 title: mus1c
 ---
+
 [Link to the exercise](https://play.picoctf.org/practice/challenge/15)
 
-## Steps 
-After downloading and opening the `lyrics.txt` I saw somewhat cryptic lyrics of the _song_: 
+## Steps
+
+After downloading and opening the `lyrics.txt` I saw somewhat cryptic lyrics of the _song_:
+
 ```Rockstar
 Pico's a CTFFFFFFF
 my mind is waitin
@@ -63,9 +66,10 @@ shout it
 shout Pico
 ```
 
-After a long while, I decided to check the hint, which suggested *mastering rockstar*. This little clue helped me to understand that the _song_ may be in fact the esoteric language. 
+After a long while, I decided to check the hint, which suggested _mastering rockstar_. This little clue helped me to understand that the _song_ may be in fact the esoteric language.
 
-I compiled the *song code* in [Rockstar -> Try It](https://codewithrockstar.com/online) and got this output: 
+I compiled the _song code_ in [Rockstar -> Try It](https://codewithrockstar.com/online) and got this output:
+
 ```ASCII
 114
 114
@@ -84,7 +88,8 @@ I compiled the *song code* in [Rockstar -> Try It](https://codewithrockstar.com/
 Program completed in 38 ms
 ```
 
-I changed newlines into spaces and put the output into the ASCII to text converter. The flag was mine. 
+I changed newlines into spaces and put the output into the ASCII to text converter. The flag was mine.
 
 ## Flag
+
 `picoCTF{rrrocknrn0113r}`

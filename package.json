@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "format": "prettier ./**/*.md"
+    "format": "prettier --write ."
   },
   "author": "",
   "license": "ISC",

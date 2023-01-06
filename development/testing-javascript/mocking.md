@@ -205,4 +205,4 @@ Then in test file:
 jest.mock("../utils");
 ```
 
-`jest` knows to pick up the path from __mocks__ directory. 
+`jest` knows to pick up the path from **mocks** directory.
