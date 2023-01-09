@@ -2,7 +2,7 @@
 title: The API Connectivity problem
 ---
 
-Due to the deterministic nature of the [[web3/blockchain]] we can't use APIs in the [[web3/Smart contracts]] directly.
+Due to the deterministic nature of the [[web3/blockchain]] we can't use APIs in the [[web3/smart-contracts]] directly.
 
 If we'd want to send a variable amount based on the price of ETH to Alice from Bob’s account, we'd have our contract call an API to get the price of ETH and then send that amount to Bob. When every other node goes to verify this, they also have to call this API.
 

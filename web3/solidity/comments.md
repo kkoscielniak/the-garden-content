@@ -1,8 +1,8 @@
 ---
 title: Comments
-
 ---
-The standard in the [[Solidity]] community is to use a format called [natspec](https://docs.soliditylang.org/en/v0.8.16/natspec-format.html), which looks like this:
+
+The standard in the [[web3/solidity/_index]] community is to use a format called [natspec](https://docs.soliditylang.org/en/v0.8.16/natspec-format.html), which looks like this:
 
 ```solidity
 /// @title A contract for basic math operations

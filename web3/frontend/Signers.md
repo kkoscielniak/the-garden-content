@@ -8,5 +8,5 @@ The available operations depend largely on the sub-class used.
 
 The most common Signers are:
 
-- [[Wallet]], which is a class which knows a [[web3/crypto-wallet]] private key and can execute any operations with it
+- `Wallet`, which is a class which knows a [[web3/crypto-wallet]] private key and can execute any operations with it
 - [[JsonRpcSigner]], which is connected to a JsonRpcProvider (or sub-class) and is acquired using `getSigner()`

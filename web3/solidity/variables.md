@@ -2,13 +2,13 @@
 title: variable types
 ---
 
-In [[web3/solidity/Solidity]], there are two locations you can store variables — in `storage` and in `memory`.
+In [[web3/solidity/_index]], there are two locations you can store variables — in `storage` and in `memory`.
 
 `storage` variables are stored permanently on the [[blockchain]]. `memory` variables are temporary, and disappear when the function call ends.
 
 Most of the time Solidity will handle them by default. [[web3/solidity/state-variable]]s are by default `storage`. Variables declared inside functions are `memory`.
 
-However, variables have to be declared as `storage` or `memory` when dealing with [[struct]]s and [[array]]s within functions.
+However, variables have to be declared as `storage` or `memory` when dealing with [[web3/solidity/struct-packing|struct]]s and [[array]]s within functions.
 
 ```solidity
 contract SandwichFactory {

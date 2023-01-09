@@ -1,6 +1,5 @@
 ---
 title: Ownership transfer in ERC721
-
 ---
 
 Here's an example of ownership transfer of the [[web3/ethereum/ERC721]] token (from [CryptoZombies](https://cryptozombies.io/)):
@@ -42,6 +41,6 @@ In [[web3/solidity/approve]], we want to make sure only the owner of the token c
 
 It also would be helpful to do:
 
-- extra checks to prevent [[web3/ethereum/burning-token]]
+- extra checks to prevent [[web3/ethereum/burning-tokens]]
 - prevent [[web3/solidity/overflows]] and underflows
 - prevent the year 2038 problem (xd but why not)

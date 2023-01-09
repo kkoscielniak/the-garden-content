@@ -4,7 +4,7 @@ title: transaction
 
 Every function that is called on the blockchain is considered a _transaction_ which means the [[web3/ethereum/gas-fee]] is applicable (unless the function is a [[view]]).
 
-Deploying the [[web3/Smart contracts|smart contract]] is a transaction as well.
+Deploying a [[web3/smart-contracts|smart contract]] is a transaction as well.
 
 ## Mining the transactions
 

@@ -2,9 +2,9 @@
 title: Hardhat
 ---
 
-[Hardhat](https://hardhat.org/docs) is a development environment for [[web3/Smart contracts]] that aids editing, compiling, debugging and deploying smart contracts and [[dApps]].
+[Hardhat](https://hardhat.org/docs) is a development environment for [[web3/smart-contracts]] that aids editing, compiling, debugging and deploying smart contracts and [[dApps]].
 
-In practice it's a local development enviroment for [[web3/solidity/Solidity]] that spins up the [[Ethereum network]] for development and gives you fake ETH, and fake test accounts to work with the smart contract being developed. Also, it handles the `owner` address for you as well.
+In practice it's a local development enviroment for [[web3/solidity/_index]] that spins up the [[Ethereum network]] for development and gives you fake ETH, and fake test accounts to work with the smart contract being developed. Also, it handles the `owner` address for you as well.
 
 ## `hre`
 
@@ -32,7 +32,7 @@ const config: HardhatUserConfig = {
 export default config;
 ```
 
-Defines the [[web3/solidity/Solidity]] version to be used and [[web3/blockchain]]s to target.
+Defines the [[web3/solidity/_index]] version to be used and [[web3/blockchain]]s to target.
 
 > [!danger] Mind the compiler version
 >
@@ -41,7 +41,7 @@ Defines the [[web3/solidity/Solidity]] version to be used and [[web3/blockchain]
 In this case the [[web3/ethereum/goerli|Goerli network]] is defined through [[web3/QuickNode]]:
 
 - `STAGING_QUICKNODE_KEY` - an endpoint created in [[web3/QuickNode]]
-- `PRIVATE_KEY` - a **private** key of the [[web3/crypto-wallet]] used for deploying the [[web3/Smart contracts|contract]].
+- `PRIVATE_KEY` - a **private** key of the [[web3/crypto-wallet]] used for deploying the [[web3/smart-contracts|contract]].
   - this can be taken from [[MetaMask]]
 
 ## `run.ts` and `deploy.ts`

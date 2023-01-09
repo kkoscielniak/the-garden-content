@@ -2,7 +2,7 @@
 title: tokens
 ---
 
-A *token* on [[Ethereum]] is basically just a [[web3/Smart contracts|smart contract]] that implements a standard set of functions that all other token contracts share, such as:
+A *token* on [[Ethereum]] is basically just a [[web3/smart-contracts|smart contract]] that implements a standard set of functions that all other token contracts share, such as:
 
 - `transferFrom`
 - `balanceOf`

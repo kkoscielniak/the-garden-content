@@ -24,7 +24,7 @@ The good part is that the whole thing is [open-source](https://github.com/kkosci
 
 ## Technicals
 
-My digital garden is built on top of the [Obsidian](https://obdidian.md) app and the open-source [Quartz](https://quartz.jzhao.xyz/) project (that itself uses [Hugo](gohugo.io) behind the scenes).
+My digital garden is built on top of the [Obsidian](https://obdidian.md) app and the open-source [Quartz](https://quartz.jzhao.xyz/) project (that itself uses [Hugo](https://gohugo.io) behind the scenes).
 
 I've modified the Quartz template a bit and I track these changes on [GitHub](https://github.com/kkoscielniak/the-garden). Probably things are going to break a lot when I decide to bump the Quartz version, but I don't care.
 

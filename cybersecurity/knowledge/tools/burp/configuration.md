@@ -29,3 +29,4 @@ In _Community_ edition we can't save projects, effectively meaning these setting
 - _Sessions_
   - allows us to define how Burp obtains, saves, and uses session cookies that it receives from target sites
   - allows us to define macros which we can use to automate things such as logging into web applications
+  - [[cybersecurity/knowledge/tools/burp/cookie-jar]]

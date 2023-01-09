@@ -2,7 +2,7 @@
 title: Libraries
 ---
 
-In web3 ecosystem in general, libraries take form of the special types of [[web3/Smart contracts]] in [[Solidity]].
+In web3 ecosystem in general, libraries take form of the special types of [[web3/smart-contracts]] in [[web3/solidity/_index]].
 
 - [[SafeMath]]
 

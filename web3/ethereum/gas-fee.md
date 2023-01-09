@@ -18,7 +18,7 @@ The creators of Ethereum wanted to make sure someone couldn't clog up the networ
 
 ## Gas fee estimation
 
-Every time a user tries to call a function on a [[web3/Smart contracts|smart contract]], the [[web3/crypto-wallet]] will try to estimate the gas fee. However, the estimation may not be precise, especially if some degree of [[randomness]] is involved.
+Every time a user tries to call a function on a [[web3/smart-contracts]], the [[web3/crypto-wallet]] will try to estimate the gas fee. However, the estimation may not be precise, especially if some degree of [[randomness]] is involved.
 
 It's possible to _limit_ how much of gas the user would want to pay for calling the function, e.g. in [[ethers]].
 

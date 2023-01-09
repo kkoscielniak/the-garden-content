@@ -4,7 +4,7 @@ title: Decentralized Oracle Network
 
 **DON** (_Decentralized OracleNetwork_) is a group of independent [[web3/oracle|oracles]] that provide external data to the [[blockchain]].
 
-Decentralized oracle networks eliminate any [[web3/single-point-of-failure]] in the [[web3/Smart contracts]] by utilizing multiple data inputs. This enables end-to-end reliability and allows high-value smart contracts in low trust environments to become viable.
+Decentralized oracle networks eliminate any [[web3/single-point-of-failure]] in the [[web3/smart-contracts]] by utilizing multiple data inputs. This enables end-to-end reliability and allows high-value smart contracts in low trust environments to become viable.
 
 ## How does a DON work?
 

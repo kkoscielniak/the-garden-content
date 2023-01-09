@@ -2,7 +2,7 @@
 title: mapping
 ---
 
-_Mapping_ is one of ways of storing organized data in [[web3/solidity/Solidity]].
+_Mapping_ is one of ways of storing organized data in [[web3/solidity/_index]].
 
 It's essentially a key-value store for storing and looking up data.
 
