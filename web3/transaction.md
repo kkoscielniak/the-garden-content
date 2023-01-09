@@ -1,7 +1,5 @@
 ---
 title: transaction
-tags:
-  - web3
 ---
 
 Every function that is called on the blockchain is considered a _transaction_ which means the [[web3/ethereum/gas-fee]] is applicable (unless the function is a [[view]]).

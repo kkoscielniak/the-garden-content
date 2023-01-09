@@ -1,8 +1,5 @@
 ---
 title: require function
-tags:
-  - web3
-  - development
 ---
 
 `require` [[web3/solidity/function]] checks if the condition passed as an argument is `true`.

@@ -1,8 +1,5 @@
 ---
 title: SafeMath
-tags:
-  - web3
-  - development
 ---
 
 `SafeMath` is a [[web3/solidity/libraries|library]] created by [OpenZeppelin](https://www.openzeppelin.com/) to make sure math operations won't cause the [[web3/solidity/overflows]].

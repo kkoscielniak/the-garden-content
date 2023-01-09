@@ -1,7 +1,5 @@
 ---
 title: "Screenshots via SSH"
-tags:
-  - linux
 ---
 
 To take a screenshot of another X session running:

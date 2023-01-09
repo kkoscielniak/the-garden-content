@@ -1,8 +1,5 @@
 ---
 title: gas fee
-tags:
-  - ethereum
-  - web3
 ---
 
 In [[Ethereum network]] the _gas_ is a _fuel_ the [[dApps]] run on.

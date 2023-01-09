@@ -1,8 +1,6 @@
 ---
 title: Ownership transfer in ERC721
-tags:
-  - web3
-  - development
+
 ---
 
 Here's an example of ownership transfer of the [[web3/ethereum/ERC721]] token (from [CryptoZombies](https://cryptozombies.io/)):

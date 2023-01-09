@@ -1,9 +1,5 @@
 ---
 title: Goerli Testnet
-tags:
-  - development
-  - ethereum
-  - web3
 ---
 
 [Görli Testnet](https://goerli.net/) is a testing [[Ethereum network]] run by Ethereum Foundation for testing the [[web3/smart-contracts]] being developed for free.

@@ -1,8 +1,5 @@
 ---
 title: transferFrom function
-tags:
-- web3
-- development
 ---
 ```solidity
 function transferFrom(address _from, address _to, uint256 _tokenId) external payable;

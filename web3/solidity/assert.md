@@ -1,8 +1,6 @@
 ---
 title: assert fn
-tags:
-  - web3
-  - development
+
 ---
 
 `assert` is similar to [[web3/solidity/require]]. The difference between `assert` and `require` is that `require` will refund the user the rest of their gas when a function fails, **whereas `assert` will not**.

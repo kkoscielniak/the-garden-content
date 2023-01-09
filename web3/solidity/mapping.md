@@ -1,9 +1,5 @@
 ---
 title: mapping
-tags:
-  - web3
-  - development
-  - solidity
 ---
 
 _Mapping_ is one of ways of storing organized data in [[web3/solidity/Solidity]].

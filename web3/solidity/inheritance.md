@@ -1,8 +1,5 @@
 ---
 title: inheritance
-tags:
-  - web3
-  - development
 ---
 
 In [[web3/solidity/Solidity]], to inherit from a contract, use `is` keyword:

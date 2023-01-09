@@ -1,8 +1,6 @@
 ---
 title: Comments
-tags:
-- web3
-- development
+
 ---
 The standard in the [[Solidity]] community is to use a format called [natspec](https://docs.soliditylang.org/en/v0.8.16/natspec-format.html), which looks like this:
 

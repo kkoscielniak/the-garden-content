@@ -1,9 +1,5 @@
 ---
 title: view function modifier
-tags:
-  - development
-  - solidity
-  - web3
 ---
 
 A `view` function modifier in [[web3/solidity/Solidity]] denotes a function used for _reading_ data from the [[web3/Smart contracts|smart contract]].

@@ -1,9 +1,5 @@
 ---
 title: ethers.js
-tags:
-  - web3
-  - development
-  - frontend
 ---
 
 [`ethers.js`](https://docs.ethers.io/v5/) is a library for interacting with an [[Ethereum network]] and its ecosystem.

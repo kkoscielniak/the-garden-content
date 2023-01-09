@@ -1,8 +1,5 @@
 ---
 title: struct packing
-tags:
-  - web3
-  - development
 ---
 
 Normally there's no benefit to using different sub-types of `uint`s (`uint8`, `uint16`, `uint32`, etc.) because [[web3/solidity/Solidity]] reserves 256 bits of storage regardless of the `uint` size. For example, using `uint8` instead of `uint` (`uint256`) won't save you any gas.

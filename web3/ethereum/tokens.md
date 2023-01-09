@@ -1,9 +1,5 @@
 ---
 title: tokens
-tags:
-  - web3
-  - ethereum
-  - web3 ecosystem
 ---
 
 A *token* on [[Ethereum]] is basically just a [[web3/Smart contracts|smart contract]] that implements a standard set of functions that all other token contracts share, such as:

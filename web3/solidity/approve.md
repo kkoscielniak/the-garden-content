@@ -1,8 +1,5 @@
 ---
 title: approve fn
-tags:
-  - web3
-  - development
 ---
 
 The `approve` function is used to _enable_ the user to _approve_ the transfer (once the owner allows for that transfer first).

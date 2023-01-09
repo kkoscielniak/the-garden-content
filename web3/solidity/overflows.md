@@ -1,8 +1,5 @@
 ---
 title: Overflows & Underflows
-tags:
-  - web3
-  - development
 ---
 
 Let's say we have a `uint8`, which can only have 8 bits. That means the largest number we can store is binary `11111111` (or in decimal, 2^8 - 1 = 255).

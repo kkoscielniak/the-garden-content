@@ -1,8 +1,5 @@
 ---
 title: variable types
-tags:
-  - web3
-  - solidity
 ---
 
 In [[web3/solidity/Solidity]], there are two locations you can store variables — in `storage` and in `memory`.

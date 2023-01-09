@@ -1,8 +1,5 @@
 ---
 title: Libraries
-tags:
-  - web3
-  - development
 ---
 
 In web3 ecosystem in general, libraries take form of the special types of [[web3/Smart contracts]] in [[Solidity]].

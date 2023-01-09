@@ -1,9 +1,5 @@
 ---
 title: modifiers
-tags:
-  - web3
-  - development
-  - solidity
 ---
 
 - [[web3/solidity/payable]]

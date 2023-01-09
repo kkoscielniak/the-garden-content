@@ -1,8 +1,5 @@
 ---
 title: Smart contracts
-tags:
-  - development
-  - web3
 ---
 
 Smart contracts are programs which govern the behaviour of accounts within the Ethereum state.

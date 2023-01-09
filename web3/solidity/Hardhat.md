@@ -1,8 +1,5 @@
 ---
 title: Hardhat
-tags:
-  - web3
-  - development
 ---
 
 [Hardhat](https://hardhat.org/docs) is a development environment for [[web3/Smart contracts]] that aids editing, compiling, debugging and deploying smart contracts and [[dApps]].

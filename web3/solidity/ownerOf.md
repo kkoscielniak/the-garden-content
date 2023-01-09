@@ -1,8 +1,5 @@
 ---
 title: ownerOf
-tags:
-  - web3
-  - development
 ---
 
 In [[web3/solidity/Solidity]], the `ownerOf` function takes a token ID, and returns the `address` of the person who owns it.

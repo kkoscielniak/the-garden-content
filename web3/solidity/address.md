@@ -1,8 +1,5 @@
 ---
 title: address function
-tags:
-- web3
-- development
 ---
 - [ ] Description
 

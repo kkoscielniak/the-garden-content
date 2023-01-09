@@ -1,8 +1,5 @@
 ---
 title: Signers
-tags:
-  - web3
-  - development
 ---
 
 In [[ethers]] a _Signer_ is an abstraction of an [[Ethereum]] account, which can be used to sign transactions and send signed transactions to the [[Ethereum Network]] to execute state changing operations.

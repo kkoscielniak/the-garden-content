@@ -1,9 +1,5 @@
 ---
-title: "state variable"
-tags:
-  - web3
-  - solidity
-  - development
+title: State Variable
 ---
 
 In [[web3/solidity/Solidity]] a _state variable_ is the one that is stored permanently in contract storage.
