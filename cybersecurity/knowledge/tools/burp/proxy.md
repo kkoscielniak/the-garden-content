@@ -45,7 +45,11 @@ There are two ways to proxy our traffic through Burp Suite:
 
 ### using embedded browser
 
-`/* [...] */`
+Burp Suite comes with a built-in Chromium browser that's preconfigured to use Burp Proxy without any modifications. We can start it directly from Burp Proxy.
+
+> [!tip] Burp Browser Error
+>
+> We may need to _Allow the embedded browser to run without a sandbox_ in _Project Options_ -> _Misc_ -> _Embedded Browser_ if we run Burp as `root`. This, however, isn't recommended in enviroments other than VM for security reasons.
 
 ### using local browser
 
@@ -66,3 +70,33 @@ From now on we can intercept requests made by our browser.
 ## Intercepting Responses to particular requests
 
 _HTTP History_ -> _Right-Click_ -> _Do Intercept_ -> _Response to this Request_
+
+## Proxying HTTPS traffic
+
+By default the Portswigger [[cybersecurity/knowledge/glossary/CA]] isn't authorised to secure the connection.
+
+Fortunately, Burp provides a certificate as a workaround. We need to add it to a list of trusted [[cybersecurity/knowledge/glossary/CA]]s manually.
+
+With the proxy activated we need to go to [http://burp/cert](http://burp/cert); this will download a file called `cacert.der`. On macOS we need to install it to iCloud Keychain, set it to be always trusted and then restart the browser. This will enable us to proxy the HTTPS traffic.
+
+## Scoping
+
+Setting a _scope_ for the project allows us to define what gets proxied and logged.
+
+We can restrict Burp Suite to *only* target the web app that we want to test.
+
+_Target_ tab -> _Right Click_ the target from the list -> _Add To Scope_.
+
+We can check the scope by switching to the _Scope_ sub-tab.
+
+The Scope sub-tab allows us to control what we are targeting by either *Including* or *Excluding* domains / IPs.
+
+To disable intercepting everything that's not in the scope, we need to go to Proxy Options sub-tab and select _And URL Is in target scope_ from the Intercept Client Requests section.
+
+## Site Mapping
+
+_Site Map_ option allows us to map out the targeted web app in a tree structure - every visited subpage will show up here, allowing us to automatically generate a site map for the target simply by browsing around the web app - useful for mapping out an API; whenever we visit a page, any API endpoints that the page retrieves data from will show up here
+
+## Issue definitions
+
+Whilst we don't have access to the vulnerability scanner in Burp Suite Community, we do still have access to a list of all the vulnerabilities it looks for. The _Issue Definitions_ section provides a huge list of web vulnerabilities (with descriptions and references) which we can draw from should we need citations for a report or help describing a vulnerability
