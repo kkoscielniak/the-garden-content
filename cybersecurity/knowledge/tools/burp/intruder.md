@@ -121,7 +121,39 @@ This attack type is exceptionally useful when forming things like [[credential s
 
 ### Cluster Bomb
 
-`/* [...] */`
+Like Pitchfork, _Cluster Bomb_ allows us to choose multiple payload sets: one per position, up to a maximum of 20. However, whilst Pitchfork iterates through each payload set simultaneously, Cluster bomb iterates through each payload set **individually**, making sure that every possible combination of payloads is tested.
+
+```
+# usernames
+joel
+harriet
+alex
+
+# passwords
+J03l
+Emma1815
+Sk1ll
+```
+
+```
+username=§pentester§&password=§Expl01ted§
+
+username=joel&password=J03l
+username=harriet&password=J03l
+username=alex&password=J03l
+username=joel&password=Emma1815
+username=harriet&password=Emma1815
+username=alex&password=Emma1815
+username=joel&password=Sk1ll
+username=harriet&password=Sk1ll
+username=alex&password=Sk1ll
+```
+
+Cluster Bomb will iterate through every combination of the provided payload sets to ensure that every possibility has been tested.
+
+This attack-type can create a *huge* amount of traffic.
+
+When using Burp Community and its Intruder rate-limiting a Cluster Bomb attack with any moderately sized payload set will take an incredibly long time.
 
 ## Payloads
 
