@@ -20,7 +20,7 @@ $ traceroute <IP>
 > tracert <IP>
 ```
 
-There is no direct way to discover the path from your system to a target system. We rely on [[cybersecurity/knowledge/glossary/ICMP]] to _trick_ the routers into revealing their IP addresses by using [[cybersecurity/knowledge/pentesting/recce/TTL]] in the IP header field.
+There is no direct way to discover the path from your system to a target system. We rely on [[cybersecurity/knowledge/glossary/ICMP]] to _trick_ the routers into revealing their IP addresses by using [[cybersecurity/knowledge/glossary/TTL]] in the IP header field.
 
 ## How it works?
 

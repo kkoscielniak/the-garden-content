@@ -55,4 +55,4 @@ We can see that tryhackme.com’s current email configuration uses Google. We sh
 
 ---
 
-For more advanced DNS queries and additional functionality, we can use [[dig]].
+For more advanced DNS queries and additional functionality, we can use [[cybersecurity/knowledge/tools/dig]].

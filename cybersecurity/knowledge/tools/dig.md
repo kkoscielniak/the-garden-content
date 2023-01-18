@@ -2,7 +2,7 @@
 title: dig
 ---
 
-`dig` (_Domain Information Groper_) is a slightly more powerful tool than [[cybersecurity/knowledge/pentesting/recce/nslookup]].
+`dig` (_Domain Information Groper_) is a slightly more powerful tool than [[cybersecurity/knowledge/tools/nslookup]].
 
 ```sh
 $ dig @SERVER DOMAIN_NAME GROUP_TYPE
