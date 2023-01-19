@@ -18,7 +18,7 @@ $ nslookup <opts> <domain> <server>
 
 For instance `nslookup` can be used to return all the IPv4 addresses used by tryhackme.com:
 
-```shell-session
+```sh
 $ nslookup -type=A tryhackme.com 1.1.1.1
 Server:		1.1.1.1
 Address:	1.1.1.1#53
@@ -38,7 +38,7 @@ In the example above, we started with one domain name, and we obtained three IPv
 
 Let’s we you want to learn about the email servers and configurations for a particular domain:
 
-```shell-session
+```sh
 user@TryHackMe$ nslookup -type=MX tryhackme.com
 Server:		127.0.0.53
 Address:	127.0.0.53#53

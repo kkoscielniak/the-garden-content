@@ -15,7 +15,7 @@ The WHOIS server replies with various information related to the domain requeste
 
 To get this information, we just need to use a `whois` client:
 
-```shell-session
+```sh
 user@TryHackMe$ whois tryhackme.com
 [Querying whois.verisign-grs.com]
 [Redirected to whois.namecheap.com]
