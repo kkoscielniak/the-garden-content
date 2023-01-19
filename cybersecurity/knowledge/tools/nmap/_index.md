@@ -30,8 +30,8 @@ We will leverage the protocols to discover the live hosts.
   - [[host-discovery-using-arp]]
 - [[cybersecurity/knowledge/glossary/ICMP]] from [[private/cybersec/networking/OSI Model#Layer 3: Network|Network Layer]]
   - [[host-discovery-using-icmp]]
-- TCP from [[private/cybersec/networking/OSI Model#Layer 4: Transport|Transport Layer]]
-- UDP from [[private/cybersec/networking/OSI Model#Layer 4: Transport|Transport Layer]]
+- TCP or UDP from [[private/cybersec/networking/OSI Model#Layer 4: Transport|Transport Layer]]
+  - [[host-discovery-using-tcp]]
 
 Although TCP and UDP are transport layers, for network scanning purposes, a scanner can send a **specially-crafted** packet to common TCP or UDP ports to check whether the target will respond. This method is efficient, especially when `ICMP Echo` is blocked.
 

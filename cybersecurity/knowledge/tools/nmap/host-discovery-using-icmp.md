@@ -1,5 +1,5 @@
 ---
-title: Nmap host discovery using ICMP
+title: Nmap Host Discovery Using ICMP
 ---
 
 We can [[cybersecurity/knowledge/tools/ping]] every IP address on a target network and see who would respond to our `ping` (`ICMP Type 8/Echo`) requests with a `ping reply` (`ICMP Type 0`).
