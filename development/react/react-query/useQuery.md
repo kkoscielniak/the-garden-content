@@ -2,13 +2,13 @@
 title: useQuery hook
 ---
 
-A hook used to fetch data in [[development/web/react/react-query/_index|React Query]].
+A hook used to fetch data in [[development/react/react-query/_index|React Query]].
 
 Allows to control the state of the component depending on the retrieved data. Helps with caching and refetching the remote data as well.
 
 ## Example
 
-You need a [[development/web/react/react-query/QueryClient]] configured and a _query function_ (a function that returns a [[Promise]] that either resolves the data, or throws an error).
+You need a [[development/react/react-query/QueryClient]] configured and a _query function_ (a function that returns a [[Promise]] that either resolves the data, or throws an error).
 
 ```jsx
 import { View, Text } from "react-native-web";

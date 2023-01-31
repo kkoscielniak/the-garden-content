@@ -12,6 +12,7 @@ A Nmap scan usually goes through these steps, although many are optional and dep
 4. Ports scanning
    1. [[cybersecurity/knowledge/tools/nmap/ports-scanning-basic]]
    2. [[cybersecurity/knowledge/tools/nmap/ports-scanning-advanced]]
+   3. [[spoofing-and-decoys]]
 5. Detect versions
 6. Detect OS
 7. Traceroute
