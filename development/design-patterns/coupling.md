@@ -1,6 +1,5 @@
 ---
 title: Coupling
-draft: true
 ---
 
 _Coupling_ determines how much a class is dependent on another classes. For example we may have the main class that uses `User` class (meaning that Main is _coupled_ or _dependent on_ `User`)

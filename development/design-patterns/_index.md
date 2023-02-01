@@ -2,7 +2,7 @@
 title: Design Patterns
 ---
 
-_Design Patterns_ are elegant solutions to repeating problems in software design, for example:
+_Design Patterns_ are elegant solutions to repetitive problems in software design, like:
 
 - the Undo mechanism ([[memento]] pattern)
 
@@ -17,6 +17,6 @@ Usually Design Patterns are split into three categories:
 - behavioural patterns
   - about the **communication/interaction between** these objects
 
-There are many unofficial and undocumented patterns out there that you might find useful in certain situations.
+There are many unofficial and undocumented patterns out there that we might find useful in certain situations.
 
-One of the goal is to minimize [[development/design-patterns/coupling]].
+One of the goals is to minimize [[development/design-patterns/coupling]].
