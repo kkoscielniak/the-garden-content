@@ -20,3 +20,5 @@ There are two phases of the commit:
 2. Commit - checking if children have to be rerendered and verifying their integrity
 
 > [!tip] To make sure the app is rerendered properly, when we render the lists, we need the `key` prop.
+
+In React for web reconciliation is a responsibility of `react-dom` package.
