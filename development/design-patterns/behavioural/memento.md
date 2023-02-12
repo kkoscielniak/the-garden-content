@@ -2,11 +2,17 @@
 title: Memento Design Pattern
 ---
 
-## The problem
+We use the _Memento_ pattern when we want to be able to revert the object to one of its previous states, eg:
 
-Implementation of _Undo_ mechanism in the application (e.g. text editor).
+- the _Undo_ mechanism in the application (e.g. text editor).
+- saving the game state and reverting back to it once the player wants to
 
-## The implementation
+The Memento pattern has 2 objectives:
+
+- Saving the important data of the key object in the system
+- [[development/oop/encapsulation]] of this key object
+
+## Implementation
 
 ```ts
 /**
@@ -91,3 +97,16 @@ console.log(editor.content); // "B"
 editor.restoreState(editorHistory.pop());
 console.log(editor.content); // "A"
 ```
+
+## Advantages/Disadvantages
+
+### Advantages
+
+- keeping the saved state of the object outside of the object
+- [[development/oop/encapsulation]] of the data of that object
+- providing the easy to implement way of returning the object to its previous state
+
+### Disadvantages
+
+- saving and restoring data might be time consuming
+  - we might consider usage of serialization to remediate this issue
