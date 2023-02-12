@@ -19,4 +19,4 @@ Usually Design Patterns are split into three categories:
 
 There are many unofficial and undocumented patterns out there that we might find useful in certain situations.
 
-One of the goals is to minimize [[development/design-patterns/coupling]].
+One of the goals is to minimize [[development/oop/coupling]].
