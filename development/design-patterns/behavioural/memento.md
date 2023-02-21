@@ -1,5 +1,5 @@
 ---
-title: Memento Design Pattern
+title: Memento
 ---
 
 We use the _Memento_ pattern when we want to be able to revert the object to one of its previous states, eg:

@@ -7,7 +7,7 @@ enableToc: false
 
 My name is Krystian Kościelniak. I’m a proud husband and father to a sneaky toddler.
 
-I [write code](https://github.com/kkoscielniak) for a living, currently at [Pickatale](https://pickatale.com/). Whenever I am not doing that or looking after my kiddo’, I [read](/reading/), learn about [cybersecurity](/cybersecurity/), [web3](/web3/) or try to make sample-based boombap beats.
+I [write code](https://github.com/kkoscielniak) for a living, currently at [R1SE](https://r1se.com/). Whenever I am not doing that or looking after my kiddo’, I [read](/reading/), learn about [cybersecurity](/cybersecurity/), [web3](/web3/) or try to make sample-based boombap beats.
 
 ## What's this place?
 
