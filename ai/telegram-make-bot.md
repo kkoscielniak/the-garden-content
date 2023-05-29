@@ -1,3 +1,7 @@
+---
+title: Telegram Bot + Make as an interface for the AI assistant
+---
+
 The side effect of my adventure in AI Devs was the creation of a Telegram bot, which serves as an interface for communication with Zelda\* - my private AI assistant.
 
 I chose Telegram because of its presence on both phone and computer, and even in the car, through CarPlay. It is also relatively easy to integrate with Make, on which my Zelda is based.
@@ -6,7 +10,7 @@ I will show you how to connect Telegram with Make.com and respond to messages se
 
 The final result for me looks like this:
 
-![[assets/0_part.mp4]]
+<video src="assets/0_part.mp4" controls>
 
 ## Creating a bot in Telegram
 
@@ -100,11 +104,7 @@ We can attach such a Shortcut to the Home Screen, as well as give it any name an
 
 ## Bonus #2: Integration with macOS via Keyboard Maestro
 
-The Shortcut presented above works on macOS, but it also unnecessarily opens an additional browser tab. Fortunately,
-
-this can be bypassed if you use Keyboard Maestro. Simply create a macro consisting of a single **_Open URL_** action and
-
-set the _with_ parameter to Telegram.
+The Shortcut presented above works on macOS, but it also unnecessarily opens an additional browser tab. Fortunately, this can be bypassed if you use Keyboard Maestro. Simply create a macro consisting of a single **_Open URL_** action and set the _with_ parameter to Telegram.
 
 ![[assets/Screenshot 2023-05-25 at 10.27.54.png]]
 
