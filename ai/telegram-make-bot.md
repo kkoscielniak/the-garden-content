@@ -8,7 +8,7 @@ I chose Telegram because of its presence on both phone and computer, and even in
 
 I will show you how to connect Telegram with Make.com and respond to messages sent to the bot in automation scenarios. I also found an interesting patent for quickly launching a chat with the bot on iOS (to my knowledge, the technique presented should also work on Android - _I hope I got you covered_) and macOS.
 
-The final result for me looks like [this](/assets/0_part.mp4).
+The final result for me looks like [this](https://koscielniak.pro/assets/0_part.mp4).
 
 ## Creating a bot in Telegram
 
