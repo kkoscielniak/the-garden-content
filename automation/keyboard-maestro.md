@@ -24,6 +24,10 @@ I call the Keyboard Maestro macros with hotkeys or with an extension for [[Rayca
 
 Even though these examples are basic, it feels right to automate these activities. I've learnt a lot about the application itself whan I was making these scenarios.
 
+## Useful shortcuts
+
+- `⌃⌘A` - Insert Action by name
+
 ## Resources
 
 - [An online course I've learned Keyboard Maestros basics from](https://eduweb.pl/marketing-i-biznes/biznes/keyboard-maestro-automatyzacja-macos) 🇵🇱
