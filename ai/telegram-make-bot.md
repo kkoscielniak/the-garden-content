@@ -10,7 +10,7 @@ I will show you how to connect Telegram with Make.com and respond to messages se
 
 The final result for me looks like this:
 
-<video src="assets/0_part.mp4" controls>
+<video src="assets/0_part.mp4" controls />
 
 ## Creating a bot in Telegram
 
