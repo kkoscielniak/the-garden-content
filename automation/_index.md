@@ -14,3 +14,4 @@ I tend to automate mundane and repetitive tasks as often as possible through bot
 - BetterTouchTool
 - Raycast
 - Shortcuts (iOS)
+- Fig.io
