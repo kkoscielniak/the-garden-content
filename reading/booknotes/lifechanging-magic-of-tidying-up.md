@@ -2,6 +2,7 @@
 title: The Life-changing Magic of Tidying Up
 weight: 1
 ---
+# The Life-changing Magic of Tidying Up
 
 By Marie Kondo. **5/5**. [Amazon](https://www.amazon.com/Life-Changing-Magic-Tidying-Decluttering-Organizing/dp/1607747308).
 
@@ -10,7 +11,6 @@ By Marie Kondo. **5/5**. [Amazon](https://www.amazon.com/Life-Changing-Magic-Tid
 ## How to declutter?
 
 > [!tip] Tip
->
 > According to the author it should be enough to do it once in a lifetime, but my experience is that it's good to do it every now and then (like during the moving out, after a kid is born etc.).
 
 Declutter the whole house at once. Occasional tidying up won't change your relationship with possessions and the clutter will find its way back into your life.

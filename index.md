@@ -5,11 +5,11 @@ next: false
 lastUpdated: false
 ---
 
-## `$ whoami`
+# `$ whoami`
 
 My name is Krystian Kościelniak. I’m a proud husband and father to a sneaky toddler.
 
-I [write code](https://github.com/kkoscielniak) for a living. Whenever I am not doing that or looking after my kiddo’, I [read](/reading/), learn about [cybersecurity](/cybersecurity/), [web3](/web3/), play video games or try to make sample-based boombap beats.
+I [write code](https://github.com/kkoscielniak) for a living. Whenever I am not doing that or looking after my kiddo’, I [read](/reading/reading-list), experiment, play video games or try to make sample-based boombap beats.
 
 In 2023 I've been diagnosed with ADHD.
 

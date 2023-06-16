@@ -1,15 +1,14 @@
 ---
-title: Reading
+title: Reading List
 ---
 
+# Reading List
 Here's the **absolutely incomplete** list of what I've read so far. Sometimes with summary and booknotes.
 
-## Currently reading
-
-- 📱 [Social Engineering. The Art Of Human Hacking](https://www.wiley.com/en-us/Social+Engineering:+The+Art+of+Human+Hacking-p-9780470639535) - Christopher Hadnagy
+If you are curious about how I read, [take a look](reading/how-I-read.md).
 
 ## 2023
-
+- 📱 [Make](https://makebook.com) - Pieter Levels - ⭐⭐⭐⭐⭐
 - 📱 [The Pentester's Blueprint](https://www.amazon.com/Pentester-BluePrint-Your-Guide-Being/dp/1119684307) - Phillip L. Wylie, Kim Crawley - ⭐️⭐️⭐️⭐️
 
 ## 2022
@@ -17,7 +16,7 @@ Here's the **absolutely incomplete** list of what I've read so far. Sometimes wi
 - 🎧 [Deep Work](https://www.amazon.com/Deep-Work-Focused-Success-Distracted/dp/1455586692) - Cal Newport - ⭐️⭐️⭐️⭐️⭐️
 - 📱 [Programowanie na Autopilocie](https://pna.zautomatyzowani.pl/) 🇵🇱 - Adam Gospodarczyk - ⭐️⭐️⭐️⭐️
 - 📱 [Codzienność na Autopilocie](https://codziennosc.zautomatyzowani.pl/) 🇵🇱 - Adam Gospodarczyk - ⭐️⭐️⭐️⭐️⭐️
-- 📱 [[reading/notes/kaizen|One Small Step Can Change Your Life: The Kaizen Way]] 🇵🇱 - Robert Maurer - ⭐️⭐️⭐️
+- 📱 [One Small Step Can Change Your Life: The Kaizen Way](/reading/booknotes/kaizen.md) 🇵🇱 - Robert Maurer - ⭐️⭐️⭐️
 
 ## 2021
 
@@ -25,7 +24,7 @@ Here's the **absolutely incomplete** list of what I've read so far. Sometimes wi
 - 🎧 [Essentialism: The Disciplined Pursuit of Less](https://www.amazon.com/Essentialism-Disciplined-Pursuit-Greg-McKeown/dp/0804137382) - Greg McKeown - ⭐️⭐️⭐️⭐️⭐️
 - 🎧 [Ego is the Enemy](http://egoistheenemy.com) - Ryan Holiday - ⭐️⭐️⭐️⭐️⭐️
 - 🎧 [The Checklist Manifesto](https://www.amazon.com/The-Checklist-Manifesto-audiobook/dp/B0031Q9ZWY) - Atul Gawande - ⭐️⭐️⭐️⭐️
-- 📱 [[reading/notes/lifechanging-magic-of-tidying-up|The Life-changing Magic of Tidying Up]] - Marie Kondo - ⭐️⭐️⭐️⭐️⭐️
+- 📱 [The Life-changing Magic of Tidying Up](./booknotes/lifechanging-magic-of-tidying-up.md) - Marie Kondo - ⭐️⭐️⭐️⭐️⭐️
 
 ## 2020
 

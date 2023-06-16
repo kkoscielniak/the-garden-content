@@ -1,8 +1,8 @@
 ---
-title: Telegram Bot + Make
+title: Telegram Bot with Make
 ---
 # Telegram Bot + Make as an AI Assistant interface
-> This article has been translated using GPT API. 
+> This article has been translated to English using GPT API. 
 
 The side effect of my adventure in AI Devs was the creation of a Telegram bot, which serves as an interface for communication with Zelda\* - my private AI assistant.
 
@@ -30,7 +30,7 @@ Telegram will ask for a name for the bot. The name will also be its _@handler_ a
 
 In response, we will receive a token for communication with the HTTP API, which we will use in Make. The direct link to the bot will also be useful later (in my case it is `t.me/SprytnyBotAndrzejaKobryBot`).
 
-![[assets/Screenshot 2023-05-24 at 20.37.45.png]]
+![Screenshot 2023-05-24 at 20.37.45](/public/Screenshot%202023-05-24%20at%2020.37.45.png)
 
 ## Creating a webhook in Make
 
@@ -38,7 +38,7 @@ To integrate Telegram with our automations, we will use a ready-made module in M
 
 To configure the connection, we only need the token sent to us by BotFather:
 
-![[assets/Screenshot 2023-05-24 at 20.48.11.png]]
+![Screenshot 2023-05-24 at 20.48.11](/public/Screenshot%202023-05-24%20at%2020.48.11.png)
 
 Thanks to this simple step, our scenario can listen for new messages directed to _SprytnyBotAndrzejaKobry_ 😅
 
@@ -50,7 +50,7 @@ Making the bot respond to our messages is even easier than listening, and basica
 
 In this module, the _Chat ID_ should be selected as the chat identifier from the incoming message in the trigger:
 
-![[assets/Screenshot 2023-05-24 at 20.58.11.png]]
+![Screenshot 2023-05-24 at 20.58.11](/public/Screenshot%202023-05-24%20at%2020.58.11.png)
 
 The _Text_ value is, of course, the content of the bot's response.
 
@@ -64,7 +64,7 @@ Thanks to the **_Router_** module in Make, we can filter incoming messages and r
 
 The downside of this solution is that from time to time we may need to update our filter, for example when we delete the entire chat with the bot on Telegram and create a new one.
 
-![[assets/Screenshot 2023-05-24 at 21.20.38.png]]
+![Screenshot 2023-05-24 at 21.20.38](/public/Screenshot%202023-05-24%20at%2021.20.38.png)
 
 > 💡 We can also use the **Router** to respond with a not-so-nice message to our _uninvited guests_ in case of failed authorization 😉
 
@@ -77,14 +77,14 @@ Our newly created bot is still quite generic. It has a poor name and lacks any c
 ```
 
 After selecting our bot from the list, additional options will appear:
-![[assets/Screenshot 2023-05-24 at 21.33.29.png]]
+![Screenshot 2023-05-24 at 21.33.29](/public/Screenshot%202023-05-24%20at%2021.33.29.png)
 
 By selecting _Edit Bot_, we will have the option to change its name, contact picture, description, etc. By clicking on the appropriate option (e.g. Edit Name), we will be asked to provide a new name.
 
 > 💡 The _Edit Botpic_ option is used to change the profile picture/contact photo.
 
 In this way, our bot will stand out a bit on the contact list:
-![[assets/Screenshot 2023-05-24 at 21.37.52.png]]
+![Screenshot 2023-05-24 at 21.37.52](/public/Screenshot%202023-05-24%20at%2021.37.52.png)
 
 ## Bonus: Integration with iOS via Shortcuts
 
@@ -94,7 +94,7 @@ Fortunately, we can easily prepare a Shortcut that will open a direct chat with 
 
 To do this, we will use the **_Open URLs_** action in Shortcuts, setting the URL value to the same URL that BotFather greeted us with when creating the bot (for me: `t.me/SprytnyBotAndrzejaKobryBot`).
 
-![[assets/IMG_FB6D7DA7CE3E-1.jpeg]]
+![IMG_FB6D7DA7CE3E-1](/public/IMG_FB6D7DA7CE3E-1.jpeg)
 
 The first time we use the Shortcut, we will need to allow the bot URL to be opened. After that, there will be no problem 🙂
 
@@ -106,7 +106,7 @@ We can attach such a Shortcut to the Home Screen, as well as give it any name an
 
 The Shortcut presented above works on macOS, but it also unnecessarily opens an additional browser tab. Fortunately, this can be bypassed if you use Keyboard Maestro. Simply create a macro consisting of a single **_Open URL_** action and set the _with_ parameter to Telegram.
 
-![[assets/Screenshot 2023-05-25 at 10.27.54.png]]
+![Screenshot 2023-05-25 at 10.27.54](/public/Screenshot%202023-05-25%20at%2010.27.54.png)
 
 Thanks to this trick, not only will we skip the browser when opening the bot, but we will also be able to attach it to any keyboard shortcut (in my case, it's `Hyper + X`), Stream Deck, etc.
 
