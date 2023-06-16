@@ -1,6 +1,8 @@
 ---
-title: Telegram Bot + Make as an interface for the AI assistant
+title: Telegram Bot + Make
 ---
+# Telegram Bot + Make as an AI Assistant interface
+> This article has been translated using GPT API. 
 
 The side effect of my adventure in AI Devs was the creation of a Telegram bot, which serves as an interface for communication with Zelda\* - my private AI assistant.
 
@@ -20,7 +22,7 @@ First, you need to use a bot with the charming name [_BotFather_](telegram.me/bo
 /newbot
 ```
 
-Telegram will ask for a name for the bot. The name will also be its _@handler_ and must end with the suffix `Bot`. For the purposes of this article, I named it `SmartBotAndrzejKobraBot`.
+Telegram will ask for a name for the bot. The name will also be its _@handler_ and must end with the suffix `Bot`. For the purposes of this article, I named it `SprytnyBotAndrzejaKobryBot`.
 
 > 💡 It's worth naming the bot in such a way that it's not easy to find. I'll explain why soon.
 
