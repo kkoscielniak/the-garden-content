@@ -1,6 +1,8 @@
 ---
 title: Home
 outline: false
+next: false
+lastUpdated: false
 ---
 
 ## `$ whoami`
