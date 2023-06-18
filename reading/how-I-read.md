@@ -3,6 +3,7 @@ title: How do I read?
 ---
 
 # How do I read?
+
 I read in both English and Polish (depending on the source material). Sometimes I read a book twice in both languages (e.g. English audiobook + Polish eBook) to make sure I am not missing anything.
 
 ## eBooks

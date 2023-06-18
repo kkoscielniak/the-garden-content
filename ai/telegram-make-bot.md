@@ -1,8 +1,10 @@
 ---
 title: Telegram Bot with Make
 ---
+
 # Telegram Bot + Make as an AI Assistant interface
-> This article has been translated to English using GPT API. 
+
+> This article has been translated to English using GPT API.
 
 The side effect of my adventure in AI Devs was the creation of a Telegram bot, which serves as an interface for communication with Zelda\* - my private AI assistant.
 

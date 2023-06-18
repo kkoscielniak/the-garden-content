@@ -2,6 +2,8 @@
 title: Digital Garden
 ---
 
+# Digital Garden
+
 > For the most part I just wing it ad hoc and hope for the best. 😅
 > ~ Joel Hooks
 
@@ -22,6 +24,7 @@ This also means not everything is going to be well-writen, perfectly organised, 
 The good part is that the whole thing is [open-source](https://github.com/kkoscielniak/the-garden-content), so if you stumble upon something evidently wrong, you can always open a PR or an issue.
 
 ## Technical nitpicks
+
 The page you are seeing is built using [VitePress](https://vitepress.dev) and is kept on [GitHub](https://github.com/kkoscielniak/the-garden).
 
 I write using [Obsidian](https://obdidian.md) and keep the Vault (content) in a [separate repo](https://github.com/kkoscielniak/the-garden-content) (referenced by VitePress as a `git submodule`). This should ensure that whenever I decide to use a different _gardening_ solution, the content will is more-or-less safe.
