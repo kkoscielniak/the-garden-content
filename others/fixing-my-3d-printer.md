@@ -19,6 +19,6 @@ I move out again, had a kid, and then I bought [[private/pocketchip/pocketchip|P
 
 For starters, I've decided to patiently disassemble every part just to reassemble it once again according to this assembly video:
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/_0F4T4aBN8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/_0F4T4aBN8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 I'm in the middle of assembling the frame, but I broke the hot-end, fan and heat sink already, so there's a lot to figure out.

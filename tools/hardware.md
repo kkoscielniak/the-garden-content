@@ -36,6 +36,12 @@ I live in the Apple's ecosystem since 2014. While I am not a definite fanboy of 
 	- I'm waiting for this one to just die, its battery after 5 years is terrible
 - AirPods Pro (1st gen.)
 
+## Video games
+- PlayStation 5
+- Nintendo Switch (1 gen.)
+	- I use [8bit Wireless USB Adapter](https://www.8bitdo.com/wireless-usb-adapter/) to connect PS5 DualSense controller to NS. It's awesome, try it
+- Steam Deck 64GB + 256GB SD MMC
+
 ## Others
 * YubiKey
 	* I take my _credentials game_ seriously. You should too.

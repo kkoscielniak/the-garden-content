@@ -2,7 +2,7 @@
 title: My favorite KM macro
 ---
 
-~~I am a beginner music producer.~~ I occasionally play with sample-based boombap beats trying to make something audible. Because of this hobby, my drive is full of jazzy cuts. I wanted to have them synced on my [[MPC Live]] SSD so I can access them in the standalone mode (without the computer connected).
+~~I am a beginner music producer.~~ I occasionally play with sample-based boombap beats trying to make something audible. Because of this hobby, my drive is full of jazzy cuts. I wanted to have them synced on my MPC Live SSD so I can access them in the standalone mode (without the computer connected).
 
 This was bothersome, because most of the time, whenever the inspiration hit or I had a minute to tinker with music, I needed to connect the MPC to the computer, manually copy the sample packs I've downloaded to the precise location on my MPC SSD, keeping in mind the naming scheme, directory structure, etc. instead of making music.
 
