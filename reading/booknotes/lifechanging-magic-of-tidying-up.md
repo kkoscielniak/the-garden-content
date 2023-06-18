@@ -1,12 +1,11 @@
 ---
 title: The Life-changing Magic of Tidying Up
-weight: 1
 ---
 # The Life-changing Magic of Tidying Up
 
-By Marie Kondo. **5/5**. [Amazon](https://www.amazon.com/Life-Changing-Magic-Tidying-Decluttering-Organizing/dp/1607747308).
+by Marie Kondo | ⭐⭐⭐⭐⭐ | [Amazon](https://www.amazon.com/Life-Changing-Magic-Tidying-Decluttering-Organizing/dp/1607747308)
 
-> Lessons from this one (and from [this Netflix's piece](https://www.netflix.com/pl-en/title/80209379)) helped us to _throw out_ ~15 bags of clutter right before our kiddo was born. I had to mentally skip the metaphysical BS though. Remarkable piece.
+Lessons from this one (and from [this Netflix's piece](https://www.netflix.com/pl-en/title/80209379)) helped us to _throw out_ ~15 bags of clutter right before our kiddo was born. There's some metaphysical BS though. Filter it out and you'll find this book a **remarkable** piece.
 
 ## How to declutter?
 
@@ -37,7 +36,7 @@ Leave only the clothes you wear. Don't keep the items to _use them at home when 
 
 Fold the foldables whenever possible (eg. trousers), hang the clothes that look better hanged (eg. shirts).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IjkmqbJTLBM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/IjkmqbJTLBM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Keep the clothes of the same category in the same place. Also, try to keep them from _heavier_ to _lighter_ (in terms of the material and color).
 
@@ -49,7 +48,7 @@ Keep the lighter colors in front of the drawer.
 
 ### Books
 
-Don't open them during decluttering. If you think you will read a particular book at some point, you probably won't. The same applies to already read books. Keep only your personal bests.
+Don't open them during decluttering. If you think you will read a particular book at some point (doesn't matter if you've already read that), you probably won't. Keep only your personal bests.
 
 ### Paperology
 

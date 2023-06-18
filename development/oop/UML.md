@@ -68,4 +68,4 @@ public class Shape {
 
 ```
 
-![[assets/Screenshot 2023-02-12 at 19.47.45.png]]
+![[public/Screenshot 2023-02-12 at 19.47.45.png]]

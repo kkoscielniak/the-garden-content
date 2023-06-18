@@ -1,11 +1,12 @@
 ---
 title: Filozofia Kaizen. Małymi krokami ku doskonałości 🇵🇱
-weight: 2
 ---
 
-By Robert Maurer. 3/5.
+by Robert Maurer | ⭐⭐⭐
 
-> An introduction to the method of small steps. Too long for such a tiny topic. Wasn't as informative as I thought.
+A way too long introduction to the method of small steps.
+
+# Filozofia Kaizen. Małymi krokami ku doskonałości
 
 ## Innowacja
 

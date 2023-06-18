@@ -25,7 +25,7 @@ I've ran Burp Suite to intercept the `GET` request sent from the website form an
 
 So I've tried to include `/etc/flag3%00` (flag file with [[cybersecurity/knowledge/pentesting/null-byte]]) with success:
 
-![[assets/Screenshot 2023-01-04 at 20.41.45 1.png]]
+![[public/Screenshot 2023-01-04 at 20.41.45 1.png]]
 
 ## Flag
 
