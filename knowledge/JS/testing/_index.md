@@ -2,5 +2,6 @@
 title: Testing JavaScript
 ---
 
-## Resources 
+## Resources
+
 - [Testing JavaScript](https://testingjavascript.com/) course by [Kent C. Dodds](https://kentcdodds.com/)
