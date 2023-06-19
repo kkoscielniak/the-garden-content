@@ -1,5 +1,0 @@
----
-title: Object-Oriented Programming
----
-
-`/* [...] */`

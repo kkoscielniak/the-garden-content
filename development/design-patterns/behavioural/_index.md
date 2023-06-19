@@ -1,5 +1,0 @@
----
-title: Behavioural Design Patterns
----
-
-`/* [...] */`
