@@ -12,7 +12,7 @@ There are four main sub-sections of the User options tab:
   - we can set a proxy for Burp Suite to connect through - useful if we want to use Burp Suite through a network pivot
 - _TLS_ - enables/disables various TLS options
   - a place to upload client certificates should a web app require us to use one for connections
-- _Display_ - configuring various options to do with the rendering engine in [repeater](knowledge/offsec/tools/burp/repeater.md)
+- _Display_ - configuring various options to do with the rendering engine in [repeater](/knowledge/OffSec/tools/burp/repeater.md)
 
 ## Project Settings
 
@@ -29,4 +29,4 @@ In _Community_ edition we can't save projects, effectively meaning these setting
 - _Sessions_
   - allows us to define how Burp obtains, saves, and uses session cookies that it receives from target sites
   - allows us to define macros which we can use to automate things such as logging into web applications
-  - [cybersecurity/knowledge/tools/burp/cookie-jar](cybersecurity/knowledge/tools/burp/cookie-jar)
+  - [cybersecurity/knowledge/tools/burp/cookie-jar](/cybersecurity/knowledge/tools/burp/cookie-jar)

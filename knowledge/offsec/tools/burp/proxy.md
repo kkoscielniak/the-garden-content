@@ -73,9 +73,9 @@ _HTTP History_ -> _Right-Click_ -> _Do Intercept_ -> _Response to this Request_
 
 ## Proxying HTTPS traffic
 
-By default the Portswigger [CA](knowledge/offsec/glossary/CA.md) isn't authorised to secure the connection.
+By default the Portswigger [CA](/knowledge/OffSec/glossary/CA.md) isn't authorised to secure the connection.
 
-Fortunately, Burp provides a certificate as a workaround. We need to add it to a list of trusted [CA](knowledge/offsec/glossary/CA.md)s manually.
+Fortunately, Burp provides a certificate as a workaround. We need to add it to a list of trusted [CA](/knowledge/OffSec/glossary/CA.md)s manually.
 
 With the proxy activated we need to go to [http://burp/cert](http://burp/cert); this will download a file called `cacert.der`. On macOS we need to install it to iCloud Keychain, set it to be always trusted and then restart the browser. This will enable us to proxy the HTTPS traffic.
 

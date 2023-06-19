@@ -2,17 +2,17 @@
 title: Nmap Host Discovery Using ICMP
 ---
 
-We can [ping](knowledge/offsec/tools/ping.md) every IP address on a target network and see who would respond to our `ping` (`ICMP Type 8/Echo`) requests with a `ping reply` (`ICMP Type 0`).
+We can [ping](/knowledge/OffSec/tools/ping.md) every IP address on a target network and see who would respond to our `ping` (`ICMP Type 8/Echo`) requests with a `ping reply` (`ICMP Type 0`).
 
 However, it is not always reliable as many firewalls block `ICMP echo` (e.g. Windows are configured to block `ICMP echo` by default)
 
-Remember that an [ARP](knowledge/offsec/tools/nmap/host-discovery-using-arp.md) query will precede the [ICMP](knowledge/offsec/glossary/ICMP.md) request if we target is on the same [subnet](private/networks/subnetworks.md).
+Remember that an [ARP](/knowledge/OffSec/tools/nmap/host-discovery-using-arp.md) query will precede the [ICMP](/knowledge/OffSec/glossary/ICMP.md) request if we target is on the same [subnet](/private/networks/subnetworks.md).
 
 In the example below, we scanned the target’s subnet using `nmap -PE -sn MACHINE_IP/24`. This scan will send ICMP echo packets to every IP address on the subnet. Again, we expect live hosts to reply; however, it is wise to remember that many firewalls block ICMP.
 
 ## Example
 
-We will scan from a system that belongs to a different subnet. The results are similar to what we've seen in [host-discovery-using-arp](knowledge/offsec/tools/nmap/host-discovery-using-arp.md) but without the MAC addresses.
+We will scan from a system that belongs to a different subnet. The results are similar to what we've seen in [host-discovery-using-arp](/knowledge/OffSec/tools/nmap/host-discovery-using-arp.md) but without the MAC addresses.
 
 ```sh
 $ sudo nmap -PE -sn 10.10.68.220/24
@@ -37,7 +37,7 @@ Host is up (0.11s latency).
 Nmap done: 256 IP addresses (8 hosts up) scanned in 8.26 seconds
 ```
 
-With [Wireshark](Wireshark), we can see that we have one source IP address on a different subnet than that of the destination subnet, sending ICMP echo requests to all the IP addresses in the target subnet to see which one will reply.
+With [Wireshark](/Wireshark), we can see that we have one source IP address on a different subnet than that of the destination subnet, sending ICMP echo requests to all the IP addresses in the target subnet to see which one will reply.
 
 ![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/0fa352ccc303a6e840929ab4a21848b1.png)
 

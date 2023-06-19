@@ -7,7 +7,7 @@ tags:
 
 [Link to the exercise](https://play.picoctf.org/practice/challenge/247)
 
-This one is similar, but a bit harder than [pw-crack-1](/knowledge/offsec/write-ups/picoCTF/pw-crack-1.md) and [pw-crack-2](/knowledge/offsec/write-ups/picoCTF/pw-crack-2.md).
+This one is similar, but a bit harder than [pw-crack-1](/knowledge/OffSec/write-ups/picoCTF/pw-crack-1.md) and [pw-crack-2](/knowledge/OffSec/write-ups/picoCTF/pw-crack-2.md).
 
 ## Steps
 
