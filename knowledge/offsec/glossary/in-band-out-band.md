@@ -6,7 +6,7 @@ title: In-band vs Out-band
 
 _In-Band_ refers to the same method of communication being used to exploit the vulnerability and also receive the results
 
-For example, discovering an [SQLi](/private/cybersecurity/knowledge/pentesting/SQLi.md) vulnerability on a website page and then being able to extract data from the database to the same page.
+For example, discovering an [SQLi](/knowledge/offsec/pentesting/SQLi.md) vulnerability on a website page and then being able to extract data from the database to the same page.
 
 ## Out-of-band
 

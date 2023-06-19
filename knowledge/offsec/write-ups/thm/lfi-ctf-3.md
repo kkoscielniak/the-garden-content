@@ -23,7 +23,7 @@ However, the hint suggested that the website uses PHPs' `$_REQUEST` to accept HT
 
 I've ran Burp Suite to intercept the `GET` request sent from the website form and edited it to be `POST` one with `welcome2` as a string. Fortunately, with `POST`, the PHP code tried to include the file without filtering out the number (`2`).
 
-So I've tried to include `/etc/flag3%00` (flag file with [null-byte](/private/cybersecurity/knowledge/pentesting/null-byte.md)) with success:
+So I've tried to include `/etc/flag3%00` (flag file with [null-byte](/knowledge/offsec/pentesting/null-byte.md)) with success:
 
 ![Screenshot 2023-01-04 at 20.41.45 1](/public/Screenshot%202023-01-04%20at%2020.41.45%201.png)
 
