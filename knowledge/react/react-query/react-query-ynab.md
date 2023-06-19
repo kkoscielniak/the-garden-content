@@ -2,7 +2,7 @@
 title: Demo of React Query + YNAB
 ---
 
-I am an YNAB heavy user. While learning [[development/web/react/|React Query]] I decided to create a demo that uses [YNAB API](https://api.youneedabudget.com/v1). This file describes the high-level process of the demo development and my findings.
+I am an YNAB heavy user. While learning [React Query](development/web/react/) I decided to create a demo that uses [YNAB API](https://api.youneedabudget.com/v1). This file describes the high-level process of the demo development and my findings.
 
 The full code is [here](https://github.com/kkoscielniak/react-query-ynab). I've also added links to particular files/commits (denoted as 📄).
 
@@ -25,17 +25,17 @@ Then I've created a `BudgetSelectionScreen` ([📄](https://github.com/kkoscieln
 
 ### Adding queries
 
-I configured the [[knowledge/react/react-query/QueryClient]] ([📄](https://github.com/kkoscielniak/react-query-ynab/blob/main/src/App.js)) and with [[knowledge/react/react-query/useQuery]] hook I utilised the `getBudgets` query from before and rendered links to a details screen ([📄](https://github.com/kkoscielniak/react-query-ynab/blob/main/src/App.js)).
+I configured the [QueryClient](knowledge/react/react-query/QueryClient.md) ([📄](https://github.com/kkoscielniak/react-query-ynab/blob/main/src/App.js)) and with [useQuery](knowledge/react/react-query/useQuery.md) hook I utilised the `getBudgets` query from before and rendered links to a details screen ([📄](https://github.com/kkoscielniak/react-query-ynab/blob/main/src/App.js)).
 
 I moved the app to React Native Web to be able to [use React Navigation](https://reactnavigation.org/docs/web-support/). I've added `BudgetDetailsScreen` and passed the selected `budgetId` to it via props.
 
-In the meantime I learned the [[knowledge/react/react-query/QueryClient]] shouldn't live inside the React App so I moved it outside ([📄](https://github.com/kkoscielniak/react-query-ynab/commit/451565cc19bf76038d67c7ff0d320b618097e804)) (and added useful React Query Devtools) ([📄](https://react-query.tanstack.com/devtools)).
+In the meantime I learned the [QueryClient](knowledge/react/react-query/QueryClient.md) shouldn't live inside the React App so I moved it outside ([📄](https://github.com/kkoscielniak/react-query-ynab/commit/451565cc19bf76038d67c7ff0d320b618097e804)) (and added useful React Query Devtools) ([📄](https://react-query.tanstack.com/devtools)).
 
-Then I've added another query ([📄](https://github.com/kkoscielniak/react-query-ynab/blob/22b20426777db5f58d3f0a723deaafc881494524/src/queries/transactions.js)) for fetching the transactions for a given `budgetId`. This is where I learned about [[knowledge/react/react-query/useQuery#Example with passing the parameters|preferred way of passing parameters]] to the queries. Ultimately I rendered the transactions.
+Then I've added another query ([📄](https://github.com/kkoscielniak/react-query-ynab/blob/22b20426777db5f58d3f0a723deaafc881494524/src/queries/transactions.js)) for fetching the transactions for a given `budgetId`. This is where I learned about [preferred way of passing parameters](knowledge/react/react-query/useQuery.md#Example%20with%20passing%20the%20parameters) to the queries. Ultimately I rendered the transactions.
 
 ### Adding mutation
 
-I wanted to have a way of adding the transactions to my YNAB budget. In React Query it's done with [[knowledge/react/react-query/useMutation]] hook.
+I wanted to have a way of adding the transactions to my YNAB budget. In React Query it's done with [useMutation](knowledge/react/react-query/useMutation.md) hook.
 
 I've created a separate component ([📄](https://github.com/kkoscielniak/react-query-ynab/blob/main/src/components/AddTransaction.js)) for the _Add Transaction form_ that had 2 inputs (_Payee_ and _Amount_) and a button that ran the mutation.
 
@@ -43,7 +43,7 @@ I've created a separate component ([📄](https://github.com/kkoscielniak/react-
 
 Lastly, I wanted to make sure the transactions the I see in my little app reflect the ones that are, in fact, in my budget. To do that I **just** needed to invalidate the query created 2 paragraphs above.
 
-To do that I just needed to call the `invalidateQueries` [[knowledge/react/react-query/QueryClient#Useful methods|method]] of the `QueryClient` in the `onSuccess` [[knowledge/react/react-query/useMutation#Methods inside of useMutation options|callback]] of the mutation ([📄.](https://github.com/kkoscielniak/react-query-ynab/commit/1dc7c9ebb37d2736f48c9c4bb07963aa712d5d76)).
+To do that I just needed to call the `invalidateQueries` [method](knowledge/react/react-query/QueryClient.md#Useful%20methods%7Cmethod) of the `QueryClient` in the `onSuccess` [callback](knowledge/react/react-query/useMutation.md#Methods%20inside%20of%20useMutation%20options%7Ccallback) of the mutation ([📄.](https://github.com/kkoscielniak/react-query-ynab/commit/1dc7c9ebb37d2736f48c9c4bb07963aa712d5d76)).
 
 And that's it. Honestly? It was great.
 

@@ -2,7 +2,7 @@
 title: Reconciliation
 ---
 
-_Reconciliation_ is the algorithm used by [[development/react/_index|React]] every time it has to rerender the application.
+_Reconciliation_ is the algorithm used by [React](/development/react/_index) every time it has to rerender the application.
 
 Initially, when we define the application structure (first render), React goes through the components and builds a tree of them. This tree defines that structure of ours.
 

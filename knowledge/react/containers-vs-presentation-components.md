@@ -14,9 +14,9 @@ The idea is to split the component into 2 smaller ones:
 
 This also makes the presentational components reusable.
 
-We can make the Presentational component even _dumber_ with [[knowledge/react/render-props]].
+We can make the Presentational component even _dumber_ with [render-props](/knowledge/react/render-props.md).
 
 ## Resources
 
 - [Dan Abramov on smart and dumb components](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
-  - according to this article [[hooks]] make splitting the components non necessasry, but it's easier to split testing of the different aspects of the component
+  - according to this article [hooks](/hooks) make splitting the components non necessasry, but it's easier to split testing of the different aspects of the component
