@@ -1,0 +1,7 @@
+---
+title: Security operations center
+---
+
+```
+...
+```
