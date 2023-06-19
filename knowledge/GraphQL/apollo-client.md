@@ -38,4 +38,4 @@ client
   .then((result) => console.log("Query result", result));
 ```
 
-In [React](/private/development/react/_index.md) we also can use `<ApolloProvider />` and use `useQuery` hook instead of handling everything with promises and [prop-drilling](/private/development/react/prop-drilling.md).
+In [React](/private/development/react/_index.md) we also can use `<ApolloProvider />` and use `useQuery` hook instead of handling everything with promises and [prop-drilling](/knowledge/react/prop-drilling.md).
