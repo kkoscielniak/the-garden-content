@@ -5,7 +5,7 @@ weight: 4
 
 ## Port states
 
-Nmap considers the following states for [[knowledge/offsec/tools/nmap/port]]s:
+Nmap considers the following states for [port](knowledge/offsec/tools/nmap/port.md)s:
 
 1. _Open_ - a service is listening on the specified port
 2. _Closed_ - no service is listening on the specified port, although the port is accessible (it is reachable and is not blocked by a firewall or other security appliances/programs)
@@ -21,7 +21,7 @@ Nmap considers the following states for [[knowledge/offsec/tools/nmap/port]]s:
 
 Nmap supports different types of TCP port scans.
 
-To understand the difference between these port scans, we need to focus on the flags that Nmap can set or unset in [[knowledge/offsec/tools/nmap/tcp-header]].
+To understand the difference between these port scans, we need to focus on the flags that Nmap can set or unset in [tcp-header](knowledge/offsec/tools/nmap/tcp-header.md).
 
 ## TCP Connect scan
 

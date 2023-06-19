@@ -2,11 +2,11 @@
 title: Burp Repeater
 ---
 
-_Burp Repeater_ allows to take the request captured in the [[knowledge/offsec/tools/burp/proxy]], edit it, and send the same request repeatedly. We can also craft and send requests by hand.
+_Burp Repeater_ allows to take the request captured in the [proxy](knowledge/offsec/tools/burp/proxy.md), edit it, and send the same request repeatedly. We can also craft and send requests by hand.
 
 Useful for:
 
-- crafting a [[knowledge/offsec/glossary/payload]] through trial and error (e.g. in an [[knowledge/offsec/pentesting/SQLi]])
+- crafting a [payload](knowledge/offsec/glossary/payload.md) through trial and error (e.g. in an [SQLi](knowledge/offsec/pentesting/SQLi.md))
 - poking around the endpoints
 - testing the functionality of an endpoint for flaws
 - rendering the numerous responses in HTML so that we can see the results of our handiwork in action.

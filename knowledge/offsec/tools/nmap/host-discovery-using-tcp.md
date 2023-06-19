@@ -13,7 +13,7 @@ If we want Nmap to use TCP SYN ping, you can do so via the option `-PS` follow
 - `-PS21-25` will target ports 21..25.
 - `-PS80,443,8080` will target ports 80, 443, and 8080.
 
-Privileged users (`root` and [[sudoers]]) can send TCP SYN packets and don’t need to complete the TCP 3-way handshake even if the port is open. Unprivileged users have no choice but to complete the 3-way handshake to see if the port is open.
+Privileged users (`root` and [sudoers](sudoers)) can send TCP SYN packets and don’t need to complete the TCP 3-way handshake even if the port is open. Unprivileged users have no choice but to complete the 3-way handshake to see if the port is open.
 
 ```sh
 $ sudo nmap -PS -sn 10.10.68.220/24
@@ -31,7 +31,7 @@ Host is up (0.11s latency).
 Nmap done: 256 IP addresses (5 hosts up) scanned in 17.38 seconds
 ```
 
-Let's take a look at the network traffic on [[Wireshark]]. Any service listening on port 80 is expected to reply, indirectly indicating that the host is online.
+Let's take a look at the network traffic on [Wireshark](Wireshark). Any service listening on port 80 is expected to reply, indirectly indicating that the host is online.
 
 ![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/e580a3279be3798ddb78f61a9ee21587.png)
 
@@ -91,4 +91,4 @@ Let’s inspect the UDP packets generated. We notice Nmap sending UDP packets to
 
 ## See also
 
-- [[knowledge/offsec/tools/masscan]]
+- [masscan](knowledge/offsec/tools/masscan.md)

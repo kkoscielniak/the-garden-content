@@ -2,7 +2,7 @@
 title: dig
 ---
 
-`dig` (_Domain Information Groper_) is a slightly more powerful tool than [[knowledge/offsec/tools/nslookup]].
+`dig` (_Domain Information Groper_) is a slightly more powerful tool than [nslookup](knowledge/offsec/tools/nslookup.md).
 
 ```sh
 $ dig @SERVER DOMAIN_NAME GROUP_TYPE

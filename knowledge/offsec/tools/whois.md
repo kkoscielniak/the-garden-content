@@ -43,6 +43,6 @@ URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
 For more information on Whois status codes, please visit https://icann.org/epp
 ```
 
-The information collected can be inspected to find new attack surfaces, such as [[social engineering]] or technical attacks, eg., depending on the scope of the penetration test, you might consider an attack against the email server of the admin user or the DNS servers, assuming they are owned by your client.
+The information collected can be inspected to find new attack surfaces, such as [social engineering](social%20engineering) or technical attacks, eg., depending on the scope of the penetration test, you might consider an attack against the email server of the admin user or the DNS servers, assuming they are owned by your client.
 
 Keep in mind many WHOIS services take measures against automated tools purposed to harvest emails. They might redact email addresses, for instance. Also, many registrants subscribe to privacy services to keep their information private.

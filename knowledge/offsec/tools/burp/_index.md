@@ -2,7 +2,7 @@
 title: Burp Suite
 ---
 
-_Burp Suite_ is a framework that is the industry standard tool for web app [[private/cybersec/pentesting/|pentesting]].
+_Burp Suite_ is a framework that is the industry standard tool for web app [pentesting](private/cybersec/pentesting/).
 
 Burp Suite is also commonly used when assessing mobile applications, as the same features which make it so attractive for web app testing translate almost perfectly into testing the APIs powering most mobile apps.
 
@@ -23,18 +23,18 @@ There are various different editions of Burp Suite available:
     - Burp Suite Collaborator (a unique request catcher self-hosted/running on a Portswigger server)
     - $399/user/year
 - Burp Suite Enterprise
-  - used for automated, continuous scanning (periodically), similarly to how [[Nessus]] performs automated infrastructure scanning
+  - used for automated, continuous scanning (periodically), similarly to how [Nessus](Nessus) performs automated infrastructure scanning
 
 ## Burp Suite Community features
 
-- [[knowledge/offsec/tools/burp/proxy]]
-- [[knowledge/offsec/tools/burp/repeater]]
-- [[knowledge/offsec/tools/burp/intruder]]
-- [[knowledge/offsec/tools/burp/decoder]]
-- [[knowledge/offsec/tools/burp/comparer]]
-- [[knowledge/offsec/tools/burp/sequencer]]
-- Extensions support through [[knowledge/offsec/tools/burp/extender]] module
+- [proxy](knowledge/offsec/tools/burp/proxy.md)
+- [repeater](knowledge/offsec/tools/burp/repeater.md)
+- [intruder](knowledge/offsec/tools/burp/intruder.md)
+- [decoder](knowledge/offsec/tools/burp/decoder.md)
+- [comparer](knowledge/offsec/tools/burp/comparer.md)
+- [sequencer](knowledge/offsec/tools/burp/sequencer.md)
+- Extensions support through [extender](knowledge/offsec/tools/burp/extender.md) module
 
 ## See also
 
-- [[knowledge/offsec/tools/burp/configuration|Useful configuration settings]]
+- [Useful configuration settings](knowledge/offsec/tools/burp/configuration.md)

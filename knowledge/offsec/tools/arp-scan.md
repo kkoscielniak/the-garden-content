@@ -2,7 +2,7 @@
 title: arp-scan
 ---
 
-`arp-scan` is an [[private/networks/ARP]] oriented network scanner.
+`arp-scan` is an [ARP](private/networks/ARP.md) oriented network scanner.
 
 ## Opts
 
@@ -24,7 +24,7 @@ Starting arp-scan 1.9 with 256 hosts (http://www.nta-monitor.com/tools/arp-scan/
 Ending arp-scan 1.9: 256 hosts scanned in 2.726 seconds (93.91 hosts/sec). 3 responded
 ```
 
-Similarly to [[knowledge/offsec/tools/nmap/host-discovery-using-arp|Nmap]], `arp-scan` will generate many ARP queries that we can see using [[tcpdump]], [[Wireshark]], or a similar tool.
+Similarly to [Nmap](knowledge/offsec/tools/nmap/host-discovery-using-arp.md), `arp-scan` will generate many ARP queries that we can see using [tcpdump](tcpdump), [Wireshark](Wireshark), or a similar tool.
 
 ## See also
 

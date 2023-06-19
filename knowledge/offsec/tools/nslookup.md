@@ -9,7 +9,7 @@ $ nslookup <opts> <domain> <server>
 ```
 
 - `opts`
-  - [[query type]] (`-type=A|AAAA|CNAME|MX|SOA|TXT`)
+  - [query type](query%20type) (`-type=A|AAAA|CNAME|MX|SOA|TXT`)
 - `domain` - domain name to look up
 - `server` - DNS server to query
   - we can choose any local or public DNS server to query (e.g. Cloudflares `1.1.1.1` and `1.0.0.1` or Google's `8.8.8.8` and `8.8.4.4`)
@@ -55,4 +55,4 @@ We can see that tryhackme.com’s current email configuration uses Google. We sh
 
 ---
 
-For more advanced DNS queries and additional functionality, we can use [[knowledge/offsec/tools/dig]].
+For more advanced DNS queries and additional functionality, we can use [dig](knowledge/offsec/tools/dig.md).

@@ -141,7 +141,7 @@ still affect the chemistry of the body. Neuronal connections are still being for
 - Productivity
 - write down things that consume your time
 - write down things that you think are more productive. Add one thing to the list every day
-- when you feel like it, try one of them in the style of [](books/book/kaizen#_kaizen_%7Ckaizen)
+- when you feel like it, try one of them in the style of [kaizen](books/book/kaizen#_kaizen_)
 
 ### Problem solving
 

@@ -2,11 +2,11 @@
 title: Nmap Host Discovery using ARP
 ---
 
-[[private/networks/ARP]] scan is possible only if you are on the same [[private/networks/subnetworks|subnet]] as the target systems.
+[ARP](private/networks/ARP.md) scan is possible only if you are on the same [subnet](private/networks/subnetworks.md) as the target systems.
 
 On an Ethernet (802.3) and WiFi (802.11), you need to know the MAC address of any system before you can communicate with it.
 
-The MAC address is necessary for the [[private/cybersec/networking/OSI Model#Layer 2: Data Link|link-layer]] header; the header contains the source MAC address and the destination MAC address among other fields.
+The MAC address is necessary for the [Data Link layer](private/cybersec/networking/OSI%20Model#Layer%202:%20Data%20Link) header; the header contains the source MAC address and the destination MAC address among other fields.
 
 To get the MAC address, the OS sends an ARP query. A host that replies to ARP queries is **up**. You should expect to see many ARP queries generated during a Nmap scan of a local network.
 
@@ -35,7 +35,7 @@ Nmap done: 256 IP addresses (4 hosts up) scanned in 3.12 seconds
 
 Nmap sends ARP requests to all the target computers, and those online should send an ARP reply back.
 
-If we look at the packets generated using a tool such as [[tcpdump]] or [[Wireshark]], we will see network traffic similar to this:
+If we look at the packets generated using a tool such as [tcpdump](tcpdump) or [Wireshark](Wireshark), we will see network traffic similar to this:
 ![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/fc86462236edf4ee667f416b533c93fd.png)
 Wireshark displays:
 
@@ -50,4 +50,4 @@ We can see that we are requesting the MAC addresses of all the IP addresses on t
 
 ## See also
 
-- [[knowledge/offsec/tools/arp-scan]]
+- [arp-scan](knowledge/offsec/tools/arp-scan.md)

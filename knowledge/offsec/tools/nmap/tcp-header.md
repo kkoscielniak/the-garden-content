@@ -2,7 +2,7 @@
 title: TCP header
 ---
 
-The TCP header is the first 24 bytes of a [[TCP segment]].
+The TCP header is the first 24 bytes of a [TCP segment](TCP%20segment).
 
 ![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/79ca8e4acbd573a27cee413cde927769.png)
 ☝️ TCP header as defined in [RFC 793](https://datatracker.ietf.org/doc/html/rfc793.html)

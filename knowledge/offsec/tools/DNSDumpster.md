@@ -2,7 +2,7 @@
 title: DNSDumpster
 ---
 
-> [!note] DNS lookup tools, such as [[knowledge/offsec/tools/nslookup]] and [[knowledge/offsec/tools/dig]], cannot find subdomains on their own.
+> [!note] DNS lookup tools, such as [nslookup](knowledge/offsec/tools/nslookup.md) and [dig](knowledge/offsec/tools/dig.md), cannot find subdomains on their own.
 
 [DNSDumpster](https://dnsdumpster.com/) is an online servise that offers detailed information for DNS queries.
 

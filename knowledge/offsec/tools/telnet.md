@@ -4,9 +4,9 @@ title: Telnet
 
 > The _TELNET_ (Teletype Network) protocol was developed in 1969 to communicate with a remote system via a CLI.
 
-The command `telnet` uses the TELNET protocol for remote administration that relies on [[TCP]]. The default port used by telnet is `23`.
+The command `telnet` uses the TELNET protocol for remote administration that relies on [TCP](TCP). The default port used by telnet is `23`.
 
-`telnet` is **not secure**. It sends all the data, including usernames and passwords, **in plaintext**, making it easy to steal the login credentials. The secure alternative is [[SSH]].
+`telnet` is **not secure**. It sends all the data, including usernames and passwords, **in plaintext**, making it easy to steal the login credentials. The secure alternative is [SSH](SSH).
 
 `telnet`, with its simplicity, can be used for other purposes. We can connect to any service running on TCP to grab its banner and even exchange a few messages unless it uses encryption.
 
