@@ -1,13 +1,15 @@
 ---
 title: Keyboard Maestro
 ---
-# Keyboard Maestro 
+
+# Keyboard Maestro
 
 [Keyboard Maestro](https://www.keyboardmaestro.com) is an app that allows to automate tasks within macOS. Think: Shortcuts, but on steroids.
 
 I call the Keyboard Maestro macros with hotkeys, from [Stream Deck](tools/hardware.md#Workstation) or with an extension for [Raycast](tools/apps/_index.md), but some triggers can be automated as well, eg. connecting an USB device.
 
 ## Things I automate
+
 - googling the selected text with **⌘ ⇧ 1**
 - opening Google Maps with the route and ETA to provided destination
 - text expanding and manipulation

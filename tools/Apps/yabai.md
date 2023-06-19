@@ -1,6 +1,7 @@
 ---
 title: yabai
 ---
+
 # `yabai`
 
 > This post was written for [Ahoy Community](https://ahoy.so) and has been translated using the GPT API.

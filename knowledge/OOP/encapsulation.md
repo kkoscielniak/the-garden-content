@@ -30,7 +30,5 @@ public class Account {
 }
 ```
 
-
-
 - [Lombok](https://projectlombok.org/) library (Java)
-	- automatically implements getters and setters
+  - automatically implements getters and setters
