@@ -11,11 +11,11 @@ My name is Krystian Kościelniak. I’m a proud husband and father to a sneaky 
 
 I [write code](https://github.com/kkoscielniak) for a living. Whenever I am not doing that or looking after my kiddo’, I [read](/reading/reading-list), experiment, play video games or try to make sample-based boombap beats.
 
-In 2023 I've been diagnosed with [ADHD](/adhd/_index).
+In 2023 I've been diagnosed with [ADHD](/ADHD/index.md). I am still exploring that superpower.
 
 ## What's this place?
 
-This is my [digital garden](about/digital-garden) for sharing what I learn in public.
+This is my [digital garden](/about/digital-garden) for sharing what I learn in public.
 
 You may roam around freely or use `⌘+K` for a site-wide search.
 

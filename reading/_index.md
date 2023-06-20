@@ -6,9 +6,9 @@ title: Reading List
 
 Here's the **absolutely incomplete** list of what I've read so far. Sometimes with summary and booknotes.
 
-If you are curious about how I read, [take a look](reading/how-I-read.md).
+If you are curious about how I read, [take a look](/reading/how-I-read.md).
 
-> Keep in mind that I've been diagnosed with [ADHD](adhd/_index.md) recently and I consider some of the advices presented in some of these books hard to apply for neurodivergent people (e.g. _Deep Work_ has lots of great ideas and is a great read overall, but the execution was never easy for me).
+> Keep in mind that I've been diagnosed with [ADHD](/ADHD/index.md) recently and I consider some of the advices presented in some of these books hard to apply for neurodivergent people (e.g. _Deep Work_ has lots of great ideas and is a great read overall, but the execution was never easy for me).
 
 ## Currently reading
 
@@ -34,7 +34,7 @@ If you are curious about how I read, [take a look](reading/how-I-read.md).
 - 🎧 Essentialism: The Disciplined Pursuit of Less - Greg McKeown - ⭐️⭐️⭐️⭐️⭐️
 - 🎧 Ego is the Enemy - Ryan Holiday - ⭐️⭐️⭐️⭐️⭐️
 - 🎧 The Checklist Manifesto - Atul Gawande - ⭐️⭐️⭐️⭐️
-- 📱 [The Life-changing Magic of Tidying Up](./booknotes/lifechanging-magic-of-tidying-up.md) - Marie Kondo - ⭐️⭐️⭐️⭐️⭐️
+- 📱 [The Life-changing Magic of Tidying Up](/./booknotes/lifechanging-magic-of-tidying-up.md) - Marie Kondo - ⭐️⭐️⭐️⭐️⭐️
 
 ## 2020
 
