@@ -32,4 +32,4 @@ A firewall generally works at **layer 3 and 4 of the [OSI Model](/private/cyber
 
 ## Useful info
 
-MS Windows firewall blocks [ping](/knowledge/OffSec/tools/ping.md) by default.
+MS Windows firewall blocks [ping](/knowledge/offsec/tools/ping.md) by default.

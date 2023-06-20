@@ -2,7 +2,7 @@
 title: Burp Intruder
 ---
 
-_Intruder_ is [Burp Suite](/cybersecurity/knowledge/tools/burp/)'s in-built [fuzzing](/knowledge/OffSec/glossary/fuzzing.md) tool. It allows us to take a request (usually captured in the [proxy](/knowledge/OffSec/tools/burp/proxy.md) beforehand) and use it as a template to send many more requests with slightly altered values automatically.
+_Intruder_ is [Burp Suite](/cybersecurity/knowledge/tools/burp/)'s in-built [fuzzing](/knowledge/offsec/glossary/fuzzing.md) tool. It allows us to take a request (usually captured in the [proxy](/knowledge/offsec/tools/burp/proxy.md) beforehand) and use it as a template to send many more requests with slightly altered values automatically.
 
 For example, by capturing a request containing a login attempt, we could configure Intruder to swap out the username and password fields for values from a wordlist, effectively allowing us to bruteforce the login form. Similarly, we could use Intruder to fuzz for subdirectories, endpoints, or virtual hosts.
 
@@ -12,7 +12,7 @@ To send a a request in from the Burp Proxy we _Right Click_ -> _Send to Intruder
 
 ## Positions
 
-*Positions* allows us to select an _Attack Type_, as well as configure where in the request template we wish to insert our [payload](/knowledge/OffSec/glossary/payload.md)s.
+*Positions* allows us to select an _Attack Type_, as well as configure where in the request template we wish to insert our [payload](/knowledge/offsec/glossary/payload.md)s.
 
 Burp will attempt to determine the most likely places we may wish to insert a payload automatically (highlighted in green and surrounded by `§` (silcrows)).
 

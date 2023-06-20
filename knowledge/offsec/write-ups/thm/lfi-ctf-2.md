@@ -7,7 +7,7 @@ weight: 2
 
 ## Goal
 
-Similarly to [lfi-ctf-1](/knowledge/OffSec/write-ups/thm/lfi-ctf-1.md), the goal is to capture the flag at `/etc/flag2` using [LFI](/knowledge/OffSec/pentesting/LFI.md).
+Similarly to [lfi-ctf-1](/knowledge/offsec/write-ups/thm/lfi-ctf-1.md), the goal is to capture the flag at `/etc/flag2` using [LFI](/knowledge/offsec/pentesting/LFI.md).
 
 ## Steps
 
@@ -29,7 +29,7 @@ To validate the idea, I've changed the cookie value to `Dupa` and saw the same e
 
 ### Exploitation
 
-I've changed the cookie value once more to `../../../../../etc/flag2%00` (using the [null byte](/knowledge/OffSec/pentesting/null-byte.md) to omit `php` extension in `include` fn). After refreshing the page flag was mine.
+I've changed the cookie value once more to `../../../../../etc/flag2%00` (using the [null byte](/knowledge/offsec/pentesting/null-byte.md) to omit `php` extension in `include` fn). After refreshing the page flag was mine.
 
 ![Screenshot 2023-01-04 at 17.01.28](/public/Screenshot%202023-01-04%20at%2017.01.28.png)
 

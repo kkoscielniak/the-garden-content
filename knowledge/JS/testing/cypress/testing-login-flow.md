@@ -24,9 +24,9 @@ describe("login", () => {
 });
 ```
 
-But we are a bit of overtesting here. We have a very similar flow to the one presented in [testing-registration-flow](/knowledge/JS/testing/cypress/testing-registration-flow.md). If there would be an error, we'd have it visible in many test cases, which might obscure where the issue really occures. Also, it makes Cypress to run longer.
+But we are a bit of overtesting here. We have a very similar flow to the one presented in [testing-registration-flow](/knowledge/js/testing/cypress/testing-registration-flow.md). If there would be an error, we'd have it visible in many test cases, which might obscure where the issue really occures. Also, it makes Cypress to run longer.
 
-We can make Cypress to handle the `/login` request for us with [cy-request-fn](/knowledge/JS/testing/cypress/cy-request-fn.md) as a [custom command](/knowledge/JS/testing/cypress/custom-cypress-cmds.md).
+We can make Cypress to handle the `/login` request for us with [cy-request-fn](/knowledge/js/testing/cypress/cy-request-fn.md) as a [custom command](/knowledge/js/testing/cypress/custom-cypress-cmds.md).
 
 ```ts
 describe("login", () => {

@@ -13,7 +13,7 @@ The final one of the _PW Crack_ series.
 
 I began by downloading all the files and opened `dictionary.txt` first.
 
-It had >65k passwords (from `0x0000` to `0xffff`) and only one was correct. I knew could reuse the loop from [pw-crack-4](/knowledge/OffSec/write-ups/picoCTF/pw-crack-4.md).
+It had >65k passwords (from `0x0000` to `0xffff`) and only one was correct. I knew could reuse the loop from [pw-crack-4](/knowledge/offsec/write-ups/picoCTF/pw-crack-4.md).
 
 However, the hints mentioned the `.strip()` fn, which meant that some passwords in the file would have whitespaces that I'd need to get rid of.
 

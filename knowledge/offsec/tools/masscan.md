@@ -2,7 +2,7 @@
 title: masscan
 ---
 
-`masscan` is a network scanning tool that uses a similar approach to discover the available systems that [Nmap](/knowledge/OffSec/tools/nmap/_index.md) uses. However, to finish its network scan quickly, Masscan is quite aggressive with the rate of packets it generates.
+`masscan` is a network scanning tool that uses a similar approach to discover the available systems that [Nmap](/knowledge/offsec/tools/nmap/_index.md) uses. However, to finish its network scan quickly, Masscan is quite aggressive with the rate of packets it generates.
 
 The syntax is quite similar: `-p` can be followed by a port number, list, or range:
 

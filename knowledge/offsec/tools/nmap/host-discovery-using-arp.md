@@ -50,4 +50,4 @@ We can see that we are requesting the MAC addresses of all the IP addresses on t
 
 ## See also
 
-- [arp-scan](/knowledge/OffSec/tools/arp-scan.md)
+- [arp-scan](/knowledge/offsec/tools/arp-scan.md)

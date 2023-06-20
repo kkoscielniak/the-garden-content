@@ -2,7 +2,7 @@
 title: typeDefs
 ---
 
-`typeDefs` is a _contract_ between the client and the [server](/knowledge/GraphQL/server.md), stating that, eg. the server can return data about `greeting` that's of type `String`:
+`typeDefs` is a _contract_ between the client and the [server](/knowledge/graphQL/server.md), stating that, eg. the server can return data about `greeting` that's of type `String`:
 
 ```js
 const { gql } = require("apollo-server");
@@ -66,7 +66,7 @@ type Query {
 }
 ```
 
-In [GraphQL](/knowledge/GraphQL/_index.md) enums are `String`s (not `Integer`s as in C++).
+In [GraphQL](/knowledge/graphQL/_index.md) enums are `String`s (not `Integer`s as in C++).
 
 ### Object types
 

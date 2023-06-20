@@ -91,4 +91,4 @@ Let’s inspect the UDP packets generated. We notice Nmap sending UDP packets to
 
 ## See also
 
-- [masscan](/knowledge/OffSec/tools/masscan.md)
+- [masscan](/knowledge/offsec/tools/masscan.md)
