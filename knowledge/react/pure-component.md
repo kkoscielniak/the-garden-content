@@ -30,7 +30,7 @@ This means:
 
 ## Dangers
 
-If we're using [render-props](/knowledge/react/render-props.md) with Pure Components, we are passing a function. The parent component would have to define a funciton calling the `renderProp` function. This _wrapping_ function will be recreated on every render of the parent, making our pure component to rerender anyway (because of the shadow equal comparison).
+If we're using [render-props](/knowledge/React/render-props.md) with Pure Components, we are passing a function. The parent component would have to define a funciton calling the `renderProp` function. This _wrapping_ function will be recreated on every render of the parent, making our pure component to rerender anyway (because of the shadow equal comparison).
 
 - This can be remediated with making the wrapper the instance function
 

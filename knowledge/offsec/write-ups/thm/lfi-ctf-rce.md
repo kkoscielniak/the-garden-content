@@ -7,13 +7,13 @@ weight: 4
 
 ## Goal
 
-Contrary to [lfi-ctf-1](/knowledge/offsec/write-ups/thm/lfi-ctf-1.md) and later ones, this CTF is about finding a flag hidden as a `hostname` with [Remote File Inclusion](/knowledge/offsec/pentesting/RFI.md).
+Contrary to [lfi-ctf-1](/knowledge/OffSec/write-ups/thm/lfi-ctf-1.md) and later ones, this CTF is about finding a flag hidden as a `hostname` with [Remote File Inclusion](/knowledge/OffSec/pentesting/RFI.md).
 
 ## Steps
 
 ### Recce
 
-I've opened the web app and tried to `include` a bunch of files that might exist already in the filesystem ([LFI](/knowledge/offsec/pentesting/LFI.md)) - to no avail. Since the challenge is about [RFI](/knowledge/offsec/pentesting/RFI.md), I've written a simple PHP script that'd echo a string to see if RFI is possible _out-of-the-box_:
+I've opened the web app and tried to `include` a bunch of files that might exist already in the filesystem ([LFI](/knowledge/OffSec/pentesting/LFI.md)) - to no avail. Since the challenge is about [RFI](/knowledge/OffSec/pentesting/RFI.md), I've written a simple PHP script that'd echo a string to see if RFI is possible _out-of-the-box_:
 
 ```php
 <?php

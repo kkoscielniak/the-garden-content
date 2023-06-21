@@ -31,7 +31,7 @@ This way we write less repetitive code.
 HOCs have advantages, such as:
 
 - they don't change the wrapped components
-  - allowing to focus on [Presentational components](/knowledge/react/containers-vs-presentation-components.md)
+  - allowing to focus on [Presentational components](/knowledge/React/containers-vs-presentation-components.md)
 - they simplify testing the application
 
 We can nest HOC wrapping, but we need to be mindful about the order of such operations.

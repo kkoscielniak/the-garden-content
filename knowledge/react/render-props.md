@@ -4,7 +4,7 @@ title: Render props
 
 _Render props_ is a [pattern](/pattern) in [React](/development/react/_index).
 
-The idea is to pass a **function** rendering the [presentational component](/knowledge/react/containers-vs-presentation-components.md) as a child **prop**, so the parent is responsible for maintaining the rendering logic.
+The idea is to pass a **function** rendering the [presentational component](/knowledge/React/containers-vs-presentation-components.md) as a child **prop**, so the parent is responsible for maintaining the rendering logic.
 
 The child component doesn't know what is going to be rendered. This is useful for cases where the parent component has to determine what will become rendered in the child component.
 

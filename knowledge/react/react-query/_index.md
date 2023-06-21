@@ -6,5 +6,5 @@ A pre-configured library for maintaining the server state. Improves handling the
 
 ## Key parts
 
-- a [QueryClient](/knowledge/react/react-query/QueryClient.md)
-- the [useQuery](/knowledge/react/react-query/useQuery.md) and [useMutation](/knowledge/react/react-query/useMutation.md) hooks
+- a [QueryClient](/knowledge/React/react-query/QueryClient.md)
+- the [useQuery](/knowledge/React/react-query/useQuery.md) and [useMutation](/knowledge/React/react-query/useMutation.md) hooks

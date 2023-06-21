@@ -11,7 +11,7 @@ tags:
 
 I downloaded the `level2.py` (the script) and `level2.flag.py.enc` (the encrypted flag) files and opened the former with `python`.
 
-Similar to [pw-crack-1](/knowledge/offsec/write-ups/picoCTF/pw-crack-1.md), the script asked for the password. The difference lies in how the password was hardcoded in the source code.
+Similar to [pw-crack-1](/knowledge/OffSec/write-ups/picoCTF/pw-crack-1.md), the script asked for the password. The difference lies in how the password was hardcoded in the source code.
 
 ### Source code analysis
 

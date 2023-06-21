@@ -36,5 +36,5 @@ server.listen({ port: 5678 }).then((result) => {
 
 ## See also
 
-- [typeDefs](/knowledge/graphQL/typeDefs.md)
+- [typeDefs](/knowledge/GraphQl/typeDefs.md)
 - [rootValue](/rootValue)

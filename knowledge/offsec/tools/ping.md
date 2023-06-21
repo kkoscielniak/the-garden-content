@@ -2,7 +2,7 @@
 title: ping
 ---
 
-`ping` is one of the most fundamental network tools. It uses [ICMP](/knowledge/offsec/glossary/ICMP.md) packets to determine the performance of a connection between devices. The primary purpose of `ping` is to check whether you can reach the remote system and that the remote system can reach you back (if the system is online, if the packet is blocked by a firewall etc.) before we spend time carrying out more detailed scans to discover the running operating system and services.
+`ping` is one of the most fundamental network tools. It uses [ICMP](/knowledge/OffSec/glossary/ICMP.md) packets to determine the performance of a connection between devices. The primary purpose of `ping` is to check whether you can reach the remote system and that the remote system can reach you back (if the system is online, if the packet is blocked by a firewall etc.) before we spend time carrying out more detailed scans to discover the running operating system and services.
 
 `ping` measures the time for IMCP packets to travel between devices (using `echo` packet from host and `echo reply` packet from the target device).
 
@@ -23,5 +23,5 @@ There are a few explanations that would explain why we didn’t get a `ping repl
   - still booting up or turned off, or the OS has crashed
 - It is unplugged from the network
 - There is a faulty network device across the path.
-- A [firewall](/knowledge/offsec/hardening/firewall.md) is configured to block such packets.
+- A [firewall](/knowledge/OffSec/hardening/firewall.md) is configured to block such packets.
 - The system is unplugged from the network.

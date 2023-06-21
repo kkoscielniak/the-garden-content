@@ -113,7 +113,7 @@ Matches:
 
 Regular Expressions aren't usable only for programming. They can be used to:
 
-- [automating](tools/automation/_index.md) the e-mails management via Zapier/Make.com
+- [automating](/tools/automation/_index.md) the e-mails management via Zapier/Make.com
   - labeling the e-mails
   - sending them to Todoist
 
