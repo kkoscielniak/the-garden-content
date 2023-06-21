@@ -15,7 +15,7 @@ In 2023 I've been diagnosed with [ADHD](/ADHD/index.md). I am still exploring th
 
 ## What's this place?
 
-This is my [digital garden](/about/digital-garden) for sharing what I learn in public.
+This is my [digital garden](/About/digital-garden.md) for sharing what I learn in public.
 
 You may roam around freely or use `⌘+K` for a site-wide search.
 
