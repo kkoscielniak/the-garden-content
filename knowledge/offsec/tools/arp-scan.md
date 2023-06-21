@@ -2,7 +2,7 @@
 title: arp-scan
 ---
 
-`arp-scan` is an [ARP](/private/networks/ARP.md) oriented network scanner.
+`arp-scan` is an [ARP](/knowledge/Networking/ARP.md) oriented network scanner.
 
 ## Opts
 

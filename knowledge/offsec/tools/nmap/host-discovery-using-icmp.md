@@ -6,7 +6,7 @@ We can [ping](/knowledge/OffSec/tools/ping.md) every IP address on a target netw
 
 However, it is not always reliable as many firewalls block `ICMP echo` (e.g. Windows are configured to block `ICMP echo` by default)
 
-Remember that an [ARP](/knowledge/OffSec/tools/nmap/host-discovery-using-arp.md) query will precede the [ICMP](/knowledge/OffSec/glossary/ICMP.md) request if we target is on the same [subnet](/private/networks/subnetworks.md).
+Remember that an [ARP](/knowledge/OffSec/tools/nmap/host-discovery-using-arp.md) query will precede the [ICMP](/knowledge/OffSec/glossary/ICMP.md) request if we target is on the same [subnet](/knowledge/Networking/subnetworks.md).
 
 In the example below, we scanned the target’s subnet using `nmap -PE -sn MACHINE_IP/24`. This scan will send ICMP echo packets to every IP address on the subnet. Again, we expect live hosts to reply; however, it is wise to remember that many firewalls block ICMP.
 
