@@ -2,7 +2,7 @@
 title: Nmap Host Discovery using ARP
 ---
 
-[ARP](/knowledge/Networking/ARP.md) scan is possible only if you are on the same [subnet](/knowledge/Networking/subnetworks.md) as the target systems.
+[ARP](/Knowledge/Networking/ARP.md) scan is possible only if you are on the same [subnet](/Knowledge/Networking/subnetworks.md) as the target systems.
 
 On an Ethernet (802.3) and WiFi (802.11), you need to know the MAC address of any system before you can communicate with it.
 
@@ -50,4 +50,4 @@ We can see that we are requesting the MAC addresses of all the IP addresses on t
 
 ## See also
 
-- [arp-scan](/knowledge/OffSec/tools/arp-scan.md)
+- [arp-scan](/Knowledge/OffSec/tools/arp-scan.md)

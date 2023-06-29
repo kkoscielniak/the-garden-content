@@ -10,7 +10,7 @@ It can function as a client that connects to a listening port or as a server tha
 
 ## Connecting to the server
 
-We can connect to a server, similarly to how [telnet](/knowledge/OffSec/tools/telnet.md) connection is made, to collect servers banner:
+We can connect to a server, similarly to how [telnet](/Knowledge/OffSec/tools/telnet.md) connection is made, to collect servers banner:
 
 ```sh
 $ nc MACHINE_IP 80

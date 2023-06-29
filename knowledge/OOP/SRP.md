@@ -6,4 +6,4 @@ Every class in the codebase should have **only one responsibility**.
 
 ## See also
 
-- [SOLID](/knowledge/OOP/SOLID.md)
+- [SOLID](/Knowledge/OOP/SOLID.md)

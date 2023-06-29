@@ -14,7 +14,7 @@ The idea is to split the component into 2 smaller ones:
 
 This also makes the presentational components reusable.
 
-We can make the Presentational component even _dumber_ with [render-props](/knowledge/React/render-props.md).
+We can make the Presentational component even _dumber_ with [render-props](/Knowledge/React/render-props.md).
 
 ## Resources
 

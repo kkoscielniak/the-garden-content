@@ -27,14 +27,14 @@ There are various different editions of Burp Suite available:
 
 ## Burp Suite Community features
 
-- [proxy](/knowledge/OffSec/tools/burp/proxy.md)
-- [repeater](/knowledge/OffSec/tools/burp/repeater.md)
-- [intruder](/knowledge/OffSec/tools/burp/intruder.md)
-- [decoder](/knowledge/OffSec/tools/burp/decoder.md)
-- [comparer](/knowledge/OffSec/tools/burp/comparer.md)
-- [sequencer](/knowledge/OffSec/tools/burp/sequencer.md)
-- Extensions support through [extender](/knowledge/OffSec/tools/burp/extender.md) module
+- [proxy](/Knowledge/OffSec/tools/burp/proxy.md)
+- [repeater](/Knowledge/OffSec/tools/burp/repeater.md)
+- [intruder](/Knowledge/OffSec/tools/burp/intruder.md)
+- [decoder](/Knowledge/OffSec/tools/burp/decoder.md)
+- [comparer](/Knowledge/OffSec/tools/burp/comparer.md)
+- [sequencer](/Knowledge/OffSec/tools/burp/sequencer.md)
+- Extensions support through [extender](/Knowledge/OffSec/tools/burp/extender.md) module
 
 ## See also
 
-- [Useful configuration settings](/knowledge/OffSec/tools/burp/configuration.md)
+- [Useful configuration settings](/Knowledge/OffSec/tools/burp/configuration.md)

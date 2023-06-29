@@ -11,7 +11,7 @@ Extensions are invoked in *descending* order on the list. All traffic passing 
 ## Notable extensions
 
 - The [Request Timer](https://github.com/portswigger/request-timer) extension (Written by Nick Taylor) allows us to log the time that each request we send takes to receive a response
-  - can be extremely useful for discovering the presence of (and exploiting) [time-based vulnerabilities](/knowledge/OffSec/pentesting/SQLi.md#Time-based%20SQLi)
+  - can be extremely useful for discovering the presence of (and exploiting) [time-based vulnerabilities](/Knowledge/OffSec/pentesting/SQLi.md#Time-based%20SQLi)
 - The [Logger++] for extended logging functionality
 
 ## Jython

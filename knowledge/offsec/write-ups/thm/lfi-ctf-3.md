@@ -7,13 +7,13 @@ weight: 3
 
 ## Goal
 
-Similarly to [lfi-ctf-1](/knowledge/OffSec/write-ups/thm/lfi-ctf-1.md) and [lfi-ctf-2](/knowledge/OffSec/write-ups/thm/lfi-ctf-2.md), the goal is to capture the flag at `/etc/flag3` using [LFI](/knowledge/OffSec/pentesting/LFI.md).
+Similarly to [lfi-ctf-1](/Knowledge/OffSec/write-ups/thm/lfi-ctf-1.md) and [lfi-ctf-2](/Knowledge/OffSec/write-ups/thm/lfi-ctf-2.md), the goal is to capture the flag at `/etc/flag3` using [LFI](/Knowledge/OffSec/pentesting/LFI.md).
 
 ## Steps
 
 ### Recon
 
-Similarly to [lfi-ctf-1](/knowledge/OffSec/write-ups/thm/lfi-ctf-1.md), we're dealing with the PHP application that includes the file. In this case the file is provided as a `GET` query param.
+Similarly to [lfi-ctf-1](/Knowledge/OffSec/write-ups/thm/lfi-ctf-1.md), we're dealing with the PHP application that includes the file. In this case the file is provided as a `GET` query param.
 
 I've tried several filenames to see if there's something worthy looking, only to get to know that everything that is not the letter is escaped (numbers, special characters and dots are filtered out of the string). so the `GET` parameter was a no go.
 
@@ -23,7 +23,7 @@ However, the hint suggested that the website uses PHPs' `$_REQUEST` to accept HT
 
 I've ran Burp Suite to intercept the `GET` request sent from the website form and edited it to be `POST` one with `welcome2` as a string. Fortunately, with `POST`, the PHP code tried to include the file without filtering out the number (`2`).
 
-So I've tried to include `/etc/flag3%00` (flag file with [null-byte](/knowledge/OffSec/pentesting/null-byte.md)) with success:
+So I've tried to include `/etc/flag3%00` (flag file with [null-byte](/Knowledge/OffSec/pentesting/null-byte.md)) with success:
 
 ![Screenshot 2023-01-04 at 20.41.45 1](/public/Screenshot%202023-01-04%20at%2020.41.45%201.png)
 

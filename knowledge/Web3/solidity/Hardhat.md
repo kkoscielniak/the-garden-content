@@ -2,9 +2,9 @@
 title: Hardhat
 ---
 
-[Hardhat](https://hardhat.org/docs) is a development environment for [smart-contracts](/knowledge/Web3/smart-contracts.md) that aids editing, compiling, debugging and deploying smart contracts and [dApps](/knowledge/Web3/solidity/dApps.md).
+[Hardhat](https://hardhat.org/docs) is a development environment for [smart-contracts](/Knowledge/Web3/smart-contracts.md) that aids editing, compiling, debugging and deploying smart contracts and [dApps](/Knowledge/Web3/solidity/dApps.md).
 
-In practice it's a local development enviroment for [index](/knowledge/Web3/solidity/index.md) that spins up the [Ethereum network](/Ethereum%20network) for development and gives you fake ETH, and fake test accounts to work with the smart contract being developed. Also, it handles the `owner` address for you as well.
+In practice it's a local development enviroment for [index](/Knowledge/Web3/solidity/index.md) that spins up the [Ethereum network](/Ethereum%20network) for development and gives you fake ETH, and fake test accounts to work with the smart contract being developed. Also, it handles the `owner` address for you as well.
 
 ## `hre`
 
@@ -32,16 +32,16 @@ const config: HardhatUserConfig = {
 export default config;
 ```
 
-Defines the [index](/knowledge/Web3/solidity/index.md) version to be used and [blockchain](/knowledge/Web3/blockchain.md)s to target.
+Defines the [index](/Knowledge/Web3/solidity/index.md) version to be used and [blockchain](/Knowledge/Web3/blockchain.md)s to target.
 
 > [!danger] Mind the compiler version
 >
-> The compiler version set by [pragma](/knowledge/Web3/solidity/pragma.md)s in `*.sol` files has to be the same as in `hardhat.config.js`.
+> The compiler version set by [pragma](/Knowledge/Web3/solidity/pragma.md)s in `*.sol` files has to be the same as in `hardhat.config.js`.
 
-In this case the [Goerli network](/knowledge/Web3/ethereum/goerli.md) is defined through [QuickNode](/knowledge/Web3/QuickNode.md):
+In this case the [Goerli network](/Knowledge/Web3/ethereum/goerli.md) is defined through [QuickNode](/Knowledge/Web3/QuickNode.md):
 
-- `STAGING_QUICKNODE_KEY` - an endpoint created in [QuickNode](/knowledge/Web3/QuickNode.md)
-- `PRIVATE_KEY` - a **private** key of the [crypto-wallet](/knowledge/Web3/crypto-wallet.md) used for deploying the [contract](/knowledge/Web3/smart-contracts.md).
+- `STAGING_QUICKNODE_KEY` - an endpoint created in [QuickNode](/Knowledge/Web3/QuickNode.md)
+- `PRIVATE_KEY` - a **private** key of the [crypto-wallet](/Knowledge/Web3/crypto-wallet.md) used for deploying the [contract](/Knowledge/Web3/smart-contracts.md).
   - this can be taken from [MetaMask](/MetaMask)
 
 ## `run.ts` and `deploy.ts`
@@ -117,7 +117,7 @@ runMain();
 npx hardhat run scripts/deploy.ts --network goerli
 ```
 
-Used to deploy to a real blockchain (in this case to [Goerli Testnet](/knowledge/Web3/ethereum/goerli.md)).
+Used to deploy to a real blockchain (in this case to [Goerli Testnet](/Knowledge/Web3/ethereum/goerli.md)).
 
 ```ts
 const main = async () => {

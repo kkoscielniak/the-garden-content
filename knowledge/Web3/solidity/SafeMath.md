@@ -2,7 +2,7 @@
 title: SafeMath
 ---
 
-`SafeMath` is a [library](/knowledge/Web3/solidity/libraries.md) created by [OpenZeppelin](https://www.openzeppelin.com/) to make sure math operations won't cause the [overflows](/knowledge/Web3/solidity/overflows.md).
+`SafeMath` is a [library](/Knowledge/Web3/solidity/libraries.md) created by [OpenZeppelin](https://www.openzeppelin.com/) to make sure math operations won't cause the [overflows](/Knowledge/Web3/solidity/overflows.md).
 
 ## Example
 

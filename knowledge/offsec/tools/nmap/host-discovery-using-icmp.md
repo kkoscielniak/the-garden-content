@@ -2,17 +2,17 @@
 title: Nmap Host Discovery Using ICMP
 ---
 
-We can [ping](/knowledge/OffSec/tools/ping.md) every IP address on a target network and see who would respond to our `ping` (`ICMP Type 8/Echo`) requests with a `ping reply` (`ICMP Type 0`).
+We can [ping](/Knowledge/OffSec/tools/ping.md) every IP address on a target network and see who would respond to our `ping` (`ICMP Type 8/Echo`) requests with a `ping reply` (`ICMP Type 0`).
 
 However, it is not always reliable as many firewalls block `ICMP echo` (e.g. Windows are configured to block `ICMP echo` by default)
 
-Remember that an [ARP](/knowledge/OffSec/tools/nmap/host-discovery-using-arp.md) query will precede the [ICMP](/knowledge/OffSec/glossary/ICMP.md) request if we target is on the same [subnet](/knowledge/Networking/subnetworks.md).
+Remember that an [ARP](/Knowledge/OffSec/tools/nmap/host-discovery-using-arp.md) query will precede the [ICMP](/Knowledge/OffSec/glossary/ICMP.md) request if we target is on the same [subnet](/Knowledge/Networking/subnetworks.md).
 
 In the example below, we scanned the target’s subnet using `nmap -PE -sn MACHINE_IP/24`. This scan will send ICMP echo packets to every IP address on the subnet. Again, we expect live hosts to reply; however, it is wise to remember that many firewalls block ICMP.
 
 ## Example
 
-We will scan from a system that belongs to a different subnet. The results are similar to what we've seen in [host-discovery-using-arp](/knowledge/OffSec/tools/nmap/host-discovery-using-arp.md) but without the MAC addresses.
+We will scan from a system that belongs to a different subnet. The results are similar to what we've seen in [host-discovery-using-arp](/Knowledge/OffSec/tools/nmap/host-discovery-using-arp.md) but without the MAC addresses.
 
 ```sh
 $ sudo nmap -PE -sn 10.10.68.220/24

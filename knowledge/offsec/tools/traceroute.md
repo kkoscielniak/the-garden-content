@@ -20,7 +20,7 @@ $ traceroute <IP>
 > tracert <IP>
 ```
 
-There is no direct way to discover the path from your system to a target system. We rely on [ICMP](/knowledge/OffSec/glossary/ICMP.md) to _trick_ the routers into revealing their IP addresses by using [TTL](/knowledge/OffSec/glossary/TTL.md) in the IP header field.
+There is no direct way to discover the path from your system to a target system. We rely on [ICMP](/Knowledge/OffSec/glossary/ICMP.md) to _trick_ the routers into revealing their IP addresses by using [TTL](/Knowledge/OffSec/glossary/TTL.md) in the IP header field.
 
 ## How it works?
 
@@ -29,5 +29,5 @@ On \*nix, `traceroute` will start by sending UDP datagrams within IP packets
 Thus, it causes the first router to encounter a `TTL=0` and send an ICMP Time-to-Live exceeded back. Hence, a TTL of 1 will reveal the IP address of the first router to you. Then it will send another packet with TTL=2; this packet will be dropped at the second router. And so on.
 
 - The number of hops/routers between your system and the target system depends on the time you are running traceroute. There is no guarantee that your packets will always follow the same route, even if you are on the same network or you repeat `traceroute` within a short time.
-- Some routers return a public IP address. You might examine a few of these routers based on the [SOW](/knowledge/OffSec/pentesting/SOW.md).
+- Some routers return a public IP address. You might examine a few of these routers based on the [SOW](/Knowledge/OffSec/pentesting/SOW.md).
 - Some routers don’t return a reply.

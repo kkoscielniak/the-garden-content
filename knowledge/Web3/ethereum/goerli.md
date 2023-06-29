@@ -2,9 +2,9 @@
 title: Goerli Testnet
 ---
 
-[Görli Testnet](https://goerli.net/) is a testing [Ethereum network](/Ethereum%20network) run by Ethereum Foundation for testing the [smart-contracts](/knowledge/Web3/smart-contracts.md) being developed for free.
+[Görli Testnet](https://goerli.net/) is a testing [Ethereum network](/Ethereum%20network) run by Ethereum Foundation for testing the [smart-contracts](/Knowledge/Web3/smart-contracts.md) being developed for free.
 
-Goerli uses fake GoerliETH (fake ETH) for [transaction](/knowledge/Web3/transaction.md)s.
+Goerli uses fake GoerliETH (fake ETH) for [transaction](/Knowledge/Web3/transaction.md)s.
 
 ## Faucets
 

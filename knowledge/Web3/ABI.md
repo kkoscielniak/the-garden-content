@@ -4,11 +4,11 @@ title: ABI
 
 By definition, an `ABI` (or _Application Binary Interface_) is the interface of interoperability of compiled software (hence _binary_).
 
-In [EVM](/EVM) [smart-contracts](/knowledge/Web3/smart-contracts.md) need to be compiled from e.g. [index](/knowledge/Web3/solidity/index.md) to EVMs bytecode. The smart contract is just this sequence of bytecode. To access functions defined in high-level languages, users need to translate names and arguments into byte representations for byte code to work with it. The ABI documents these names and types precisely, easily parseable format, doing translations between human-intended method calls and smart-contract operations discoverable and reliable.
+In [EVM](/EVM) [smart-contracts](/Knowledge/Web3/smart-contracts.md) need to be compiled from e.g. [index](/Knowledge/Web3/solidity/index.md) to EVMs bytecode. The smart contract is just this sequence of bytecode. To access functions defined in high-level languages, users need to translate names and arguments into byte representations for byte code to work with it. The ABI documents these names and types precisely, easily parseable format, doing translations between human-intended method calls and smart-contract operations discoverable and reliable.
 
 In other words, when you compile your smart contract, the compiler spits out a bunch of files needed that lets you interact with the contract. The files are basically the ABI.
 
-In [Hardhat](/knowledge/Web3/solidity/Hardhat.md) compiled ABI lies under `artifacts/contracts/<contractName>.sol/<contractName>.json`.
+In [Hardhat](/Knowledge/Web3/solidity/Hardhat.md) compiled ABI lies under `artifacts/contracts/<contractName>.sol/<contractName>.json`.
 
 ## Resources
 

@@ -2,7 +2,7 @@
 title: struct packing
 ---
 
-Normally there's no benefit to using different sub-types of `uint`s (`uint8`, `uint16`, `uint32`, etc.) because [index](/knowledge/Web3/solidity/index.md) reserves 256 bits of storage regardless of the `uint` size. For example, using `uint8` instead of `uint` (`uint256`) won't save you any gas.
+Normally there's no benefit to using different sub-types of `uint`s (`uint8`, `uint16`, `uint32`, etc.) because [index](/Knowledge/Web3/solidity/index.md) reserves 256 bits of storage regardless of the `uint` size. For example, using `uint8` instead of `uint` (`uint256`) won't save you any gas.
 
 But there's an exception to this: inside `struct`s.
 

@@ -7,7 +7,7 @@ tags:
 
 [Link to the exercise](https://play.picoctf.org/practice/challenge/248)
 
-This one is basically the same as [pw-crack-3](/knowledge/OffSec/write-ups/picoCTF/pw-crack-3.md), the only difference is the possible passwords count.
+This one is basically the same as [pw-crack-3](/Knowledge/OffSec/write-ups/picoCTF/pw-crack-3.md), the only difference is the possible passwords count.
 
 ## Steps
 

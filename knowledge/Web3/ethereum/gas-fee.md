@@ -2,7 +2,7 @@
 title: gas fee
 ---
 
-In [Ethereum network](/Ethereum%20network) the _gas_ is a _fuel_ the [dApps](/knowledge/Web3/solidity/dApps.md) run on.
+In [Ethereum network](/Ethereum%20network) the _gas_ is a _fuel_ the [dApps](/Knowledge/Web3/solidity/dApps.md) run on.
 
 Every time the user executes a function on a [Ethereum network](/Ethereum%20network), he has to pay for it in ETH.
 
@@ -18,12 +18,12 @@ The creators of Ethereum wanted to make sure someone couldn't clog up the networ
 
 ## Gas fee estimation
 
-Every time a user tries to call a function on a [smart-contracts](/knowledge/Web3/smart-contracts.md), the [crypto-wallet](/knowledge/Web3/crypto-wallet.md) will try to estimate the gas fee. However, the estimation may not be precise, especially if some degree of [randomness](/randomness) is involved.
+Every time a user tries to call a function on a [smart-contracts](/Knowledge/Web3/smart-contracts.md), the [crypto-wallet](/Knowledge/Web3/crypto-wallet.md) will try to estimate the gas fee. However, the estimation may not be precise, especially if some degree of [randomness](/randomness) is involved.
 
-It's possible to _limit_ how much of gas the user would want to pay for calling the function, e.g. in [ethers](/knowledge/Web3/frontend/ethers.md).
+It's possible to _limit_ how much of gas the user would want to pay for calling the function, e.g. in [ethers](/Knowledge/Web3/frontend/ethers.md).
 
 ## Optimisation
 
 Because every function costs real money, code optimisation is extremely important. There are some pretty simple ways to optimise the code:
 
-- [struct-packing](/knowledge/Web3/solidity/struct-packing.md)
+- [struct-packing](/Knowledge/Web3/solidity/struct-packing.md)

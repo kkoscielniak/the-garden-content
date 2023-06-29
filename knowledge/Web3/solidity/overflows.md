@@ -15,6 +15,6 @@ We've cause an _overflow_ — so `number` is counterintuitively now equal to 
 
 An _underflow_ is similar, where if you subtract `1` from a `uint8` that equals `0`, it will now equal `255` (because `uint`s are unsigned, and cannot be negative).
 
-It seems unlikely that a `uint256` would overflow as 2^256 is a really big number, but it's still good to put protections in our contract so that our [dApps](/knowledge/Web3/solidity/dApps.md) are safe from unexpected behaviour.
+It seems unlikely that a `uint256` would overflow as 2^256 is a really big number, but it's still good to put protections in our contract so that our [dApps](/Knowledge/Web3/solidity/dApps.md) are safe from unexpected behaviour.
 
-To prevent overflows and underflows, we can use [SafeMath](/knowledge/Web3/solidity/SafeMath.md) library.
+To prevent overflows and underflows, we can use [SafeMath](/Knowledge/Web3/solidity/SafeMath.md) library.

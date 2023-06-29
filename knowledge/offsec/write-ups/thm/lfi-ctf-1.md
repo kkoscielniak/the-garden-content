@@ -7,7 +7,7 @@ weight: 1
 
 ## Goal
 
-Capture Flag1 at `/etc/flag1` using [LFI](/knowledge/OffSec/pentesting/LFI.md).
+Capture Flag1 at `/etc/flag1` using [LFI](/Knowledge/OffSec/pentesting/LFI.md).
 
 ## Steps
 

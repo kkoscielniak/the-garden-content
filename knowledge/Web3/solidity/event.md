@@ -2,7 +2,7 @@
 title: event
 ---
 
-On a basic level, an `event` in [index](/knowledge/Web3/solidity/index.md) is a message the [smart-contracts](/knowledge/Web3/smart-contracts.md) throw out that can be captured in a client **in real time**.
+On a basic level, an `event` in [index](/Knowledge/Web3/solidity/index.md) is a message the [smart-contracts](/Knowledge/Web3/smart-contracts.md) throw out that can be captured in a client **in real time**.
 
 ## Example
 

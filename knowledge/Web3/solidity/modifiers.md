@@ -2,5 +2,5 @@
 title: modifiers
 ---
 
-- [payable](/knowledge/Web3/solidity/payable.md)
-- [view](/knowledge/Web3/solidity/view.md)
+- [payable](/Knowledge/Web3/solidity/payable.md)
+- [view](/Knowledge/Web3/solidity/view.md)

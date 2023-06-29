@@ -2,7 +2,7 @@
 title: inheritance
 ---
 
-In [index](/knowledge/Web3/solidity/index.md), to inherit from a contract, use `is` keyword:
+In [index](/Knowledge/Web3/solidity/index.md), to inherit from a contract, use `is` keyword:
 
 ```solidity
 import "./zombieattack.sol";

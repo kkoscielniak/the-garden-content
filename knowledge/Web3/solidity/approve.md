@@ -10,10 +10,10 @@ function transferFrom(address _from, address _to, uint256 _tokenId) external pay
 function approve(address _approved, uint256 _tokenId) external payable;`
 ```
 
-The token's **owner** first calls `approve` with the address he wants to transfer to, and the `_tokenID` . The contract then stores who is approved to take a token, usually in a [mapping](/knowledge/Web3/solidity/mapping.md) `(uint256 => address)`.
+The token's **owner** first calls `approve` with the address he wants to transfer to, and the `_tokenID` . The contract then stores who is approved to take a token, usually in a [mapping](/Knowledge/Web3/solidity/mapping.md) `(uint256 => address)`.
 
 Then, when the owner or the approved address calls `transferFrom`, the contract checks if that `msg.sender` is the owner or is approved by the owner to take the token, and if so it transfers the token to him.
 
-In the [transferFrom](/knowledge/Web3/solidity/transferFrom.md) only case the sender of the token calls the `transferFrom` function; in this case the owner or the approved receiver of the token calls it.
+In the [transferFrom](/Knowledge/Web3/solidity/transferFrom.md) only case the sender of the token calls the `transferFrom` function; in this case the owner or the approved receiver of the token calls it.
 
 > [!question] Best way for [airdropping](/airdropping)?

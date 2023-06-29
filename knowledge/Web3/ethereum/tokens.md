@@ -2,12 +2,12 @@
 title: tokens
 ---
 
-A *token* on [Ethereum](/Ethereum) is basically just a [smart contract](/knowledge/Web3/smart-contracts.md) that implements a standard set of functions that all other token contracts share, such as:
+A *token* on [Ethereum](/Ethereum) is basically just a [smart contract](/Knowledge/Web3/smart-contracts.md) that implements a standard set of functions that all other token contracts share, such as:
 
 - `transferFrom`
 - `balanceOf`
 
-Internally the smart contract usually has a [mapping](/knowledge/Web3/solidity/mapping.md) that keeps track of how much balance each address has:
+Internally the smart contract usually has a [mapping](/Knowledge/Web3/solidity/mapping.md) that keeps track of how much balance each address has:
 
 ```solidity
 mapping(address => uint256) balances
@@ -32,4 +32,4 @@ In practice - when an exchange adds a new ERC20 token, really it just needs to a
 
 _Collectible_ isn't divisible like currency — transfering you 0.237 of a _collectible_ doesn't make sense. _Collectibles_ don't necesarrily have to be _equal_ (their internal state may differ, they may have different parameters and [rarity](/rarity)).
 
-For collectibles a go-to solution is to use [ERC721](/knowledge/Web3/ethereum/ERC721.md) standard.
+For collectibles a go-to solution is to use [ERC721](/Knowledge/Web3/ethereum/ERC721.md) standard.

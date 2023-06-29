@@ -4,8 +4,8 @@ title: ethers.js
 
 [`ethers.js`](https://docs.ethers.io/v5/) is a library for interacting with an [Ethereum network](/Ethereum%20network) and its ecosystem.
 
-- [Signers](/knowledge/Web3/frontend/Signers.md)
-- [Providers](/knowledge/Web3/frontend/Providers.md)
+- [Signers](/Knowledge/Web3/frontend/Signers.md)
+- [Providers](/Knowledge/Web3/frontend/Providers.md)
 
 ## `gasLimit`
 

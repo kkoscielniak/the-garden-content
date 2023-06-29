@@ -2,7 +2,7 @@
 title: moize
 ---
 
-[useMemo](/knowledge/React/useMemo.md) has its limits - for example if we're [memoizing](/memoization) the same results but in different components:
+[useMemo](/Knowledge/React/useMemo.md) has its limits - for example if we're [memoizing](/memoization) the same results but in different components:
 
 ```jsx
 const n = 1;

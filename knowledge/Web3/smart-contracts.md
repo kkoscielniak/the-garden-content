@@ -10,7 +10,7 @@ Practically the basis of most smart contracts is:
 
 - read functions
 - write functions
-- change the [state-variable](/knowledge/Web3/solidity/state-variable.md)s
+- change the [state-variable](/Knowledge/Web3/solidity/state-variable.md)s
 
 > [!tip]
 >
@@ -20,7 +20,7 @@ Practically the basis of most smart contracts is:
 
 Smart contracts are immutable by design. Once they are deployed, they stay in their state permanently. Changing a contract requires a full redeploy. The redeploy also resets all the variables since newly deployed contract is treawted a **brand new contract**.
 
-New contract means **new address**, and both address and [ABI](/knowledge/Web3/ABI.md) have to be updated on the [index](/knowledge/Web3/frontend/index.md) side.
+New contract means **new address**, and both address and [ABI](/Knowledge/Web3/ABI.md) have to be updated on the [index](/Knowledge/Web3/frontend/index.md) side.
 
 > [!tip] This can be solved
 >
@@ -30,8 +30,8 @@ New contract means **new address**, and both address and [ABI](/knowledge/Web3/A
 
 ## Deploying the smart contract
 
-Deployment of the smart contract is considered a [transaction](/knowledge/Web3/transaction.md).
+Deployment of the smart contract is considered a [transaction](/Knowledge/Web3/transaction.md).
 
-When we deploy our contract, we tell all miners to add smart contract to the blockchain and to broadcast the contract creation transaction over the whole [blockchain](/knowledge/Web3/blockchain.md).
+When we deploy our contract, we tell all miners to add smart contract to the blockchain and to broadcast the contract creation transaction over the whole [blockchain](/Knowledge/Web3/blockchain.md).
 
 Once the transaction is mined, it is then broadcasted to the blockchain as a legit transaction. From there, everyone updates their copy of the blockchain.

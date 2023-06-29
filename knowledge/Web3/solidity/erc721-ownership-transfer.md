@@ -2,7 +2,7 @@
 title: Ownership transfer in ERC721
 ---
 
-Here's an example of ownership transfer of the [ERC721](/knowledge/Web3/ethereum/ERC721.md) token (from [CryptoZombies](https://cryptozombies.io/)):
+Here's an example of ownership transfer of the [ERC721](/Knowledge/Web3/ethereum/ERC721.md) token (from [CryptoZombies](https://cryptozombies.io/)):
 
 ```solidity
 contract ZombieOwnership is ZombieAttack, ERC721 {
@@ -37,10 +37,10 @@ contract ZombieOwnership is ZombieAttack, ERC721 {
 }
 ```
 
-In [approve](/knowledge/Web3/solidity/approve.md), we want to make sure only the owner of the token can give someone approval to take it. So we need to add the `onlyOwnerOf` modifier to `approve` (`onlyOwnerOf` is a custom [modifier](/knowledge/Web3/solidity/modifiers.md)). Then we need to set `zombieApprovals` [mapping](/knowledge/Web3/solidity/mapping.md) for `_tokenId` equal to the `_approved` address. Ultimately, the `Approval` event needs to be fired to comply with [ERC721](/knowledge/Web3/ethereum/ERC721.md) standard.
+In [approve](/Knowledge/Web3/solidity/approve.md), we want to make sure only the owner of the token can give someone approval to take it. So we need to add the `onlyOwnerOf` modifier to `approve` (`onlyOwnerOf` is a custom [modifier](/Knowledge/Web3/solidity/modifiers.md)). Then we need to set `zombieApprovals` [mapping](/Knowledge/Web3/solidity/mapping.md) for `_tokenId` equal to the `_approved` address. Ultimately, the `Approval` event needs to be fired to comply with [ERC721](/Knowledge/Web3/ethereum/ERC721.md) standard.
 
 It also would be helpful to do:
 
-- extra checks to prevent [burning-tokens](/knowledge/Web3/ethereum/burning-tokens.md)
-- prevent [overflows](/knowledge/Web3/solidity/overflows.md) and underflows
+- extra checks to prevent [burning-tokens](/Knowledge/Web3/ethereum/burning-tokens.md)
+- prevent [overflows](/Knowledge/Web3/solidity/overflows.md) and underflows
 - prevent the year 2038 problem (xd but why not)

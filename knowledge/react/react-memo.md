@@ -2,7 +2,7 @@
 title: React.memo
 ---
 
-With `React.Memo`, we can make the functional component to behave like a class [pure-component](/knowledge/React/pure-component.md).
+With `React.Memo`, we can make the functional component to behave like a class [pure-component](/Knowledge/React/pure-component.md).
 
 We create new constant that'd keeps the result of `React.memo` function:
 

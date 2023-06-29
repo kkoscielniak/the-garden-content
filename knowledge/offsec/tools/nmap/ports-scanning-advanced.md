@@ -7,7 +7,7 @@ Some of these scan types can be useful against specific systems or in particular
 
 ## Null Scan (-sN)
 
-The _null scan_ does not set any flag (all six flag bits in [tcp-header](/knowledge/OffSec/tools/nmap/tcp-header.md) are set to zero).
+The _null scan_ does not set any flag (all six flag bits in [tcp-header](/Knowledge/OffSec/tools/nmap/tcp-header.md) are set to zero).
 
 A TCP packet with no flags set will not trigger any response when it reaches an open port. From Nmap’s perspective, a lack of reply in a null scan indicates that either the port is open or a firewall is blocking the packet.
 
@@ -40,7 +40,7 @@ No response will be sent if the TCP port is open. Again, Nmap cannot be sure if 
 
 It's worth noting some firewalls will 'silently' drop the traffic without sending an RST.
 
-The result is quite similar to the result we obtained earlier using a [Null Scan](/knowledge/OffSec/tools/nmap/ports-scanning-advanced.md#Null%20Scan%20-sN).
+The result is quite similar to the result we obtained earlier using a [Null Scan](/Knowledge/OffSec/tools/nmap/ports-scanning-advanced.md#Null%20Scan%20-sN).
 
 ```sh
 $ sudo nmap -sF 10.10.235.110
@@ -67,7 +67,7 @@ The Xmas scan gets its name after Christmas tree lights. An Xmas scan sets the F
 
 Like the Null scan and FIN scan, if an RST packet is received, it means that the port is closed. Otherwise, it will be reported as open|filtered.
 
-The obtained results are pretty similar to that of the [null scan](/knowledge/OffSec/tools/nmap/ports-scanning-advanced.md) and the [FIN scan](/knowledge/OffSec/tools/nmap/ports-scanning-advanced.md).
+The obtained results are pretty similar to that of the [null scan](/Knowledge/OffSec/tools/nmap/ports-scanning-advanced.md) and the [FIN scan](/Knowledge/OffSec/tools/nmap/ports-scanning-advanced.md).
 
 ```sh
 $ sudo nmap -sX 10.10.235.110
@@ -88,7 +88,7 @@ MAC Address: 02:45:BF:8A:2D:6B (Unknown)
 Nmap done: 1 IP address (1 host up) scanned in 84.85 seconds
 ```
 
-> [!tip] Null, FIN and Xmas scan types can be efficient is when scanning a target behind a stateless (non-stateful) [firewall](/knowledge/OffSec/hardening/firewall.md).
+> [!tip] Null, FIN and Xmas scan types can be efficient is when scanning a target behind a stateless (non-stateful) [firewall](/Knowledge/OffSec/hardening/firewall.md).
 >
 > A stateless firewall will check if the incoming packet has the SYN flag set to detect a connection attempt. Using a flag combination that does not match the SYN packet makes it possible to deceive the firewall and reach the system behind it.
 >
@@ -110,7 +110,7 @@ This scan won’t work on most targets encountered in modern networks. Most targ
 
 An ACK scan will send a TCP packet with the ACK flag set. The target would respond to the ACK with RST regardless of the state of the port. This behaviour happens because a TCP packet with the ACK flag set should be sent only in response to a received TCP packet to acknowledge the receipt of some data, unlike our case. Hence, this scan won’t tell us whether the target port is open in a simple setup.
 
-However, this kind of scan would be helpful if there is a [firewall](/knowledge/OffSec/hardening/firewall.md) in front of the target.
+However, this kind of scan would be helpful if there is a [firewall](/Knowledge/OffSec/hardening/firewall.md) in front of the target.
 
 Consequently, based on which ACK packets resulted in responses, you will learn which ports were not blocked by the firewall. In other words, **this type of scan is more suitable to discover firewall rule sets and configuration**.
 
@@ -134,7 +134,7 @@ This result indicates that the firewall is blocking all other ports except for t
 
 ## TCP Window scan (-sW)
 
-The _TCP Window Scan_ is almost the same as [ACK Scan](/knowledge/OffSec/tools/nmap/ports-scanning-advanced.md), however, it examines the TCP Window field of the RST packets returned.
+The _TCP Window Scan_ is almost the same as [ACK Scan](/Knowledge/OffSec/tools/nmap/ports-scanning-advanced.md), however, it examines the TCP Window field of the RST packets returned.
 
 On specific systems, this can reveal that the port is open.
 

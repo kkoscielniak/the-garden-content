@@ -2,15 +2,15 @@
 title: Oracle
 ---
 
-An _oracle_ is any entity or device that connects a deterministic [blockchain](/knowledge/Web3/blockchain.md) with [off-chain](/off-chain) data (and vice-versa).
+An _oracle_ is any entity or device that connects a deterministic [blockchain](/Knowledge/Web3/blockchain.md) with [off-chain](/off-chain) data (and vice-versa).
 
-Oracles are used to provide external data to the [smart-contracts](/knowledge/Web3/smart-contracts.md). They serve as a middleware between the blockchain and the external APIs.
+Oracles are used to provide external data to the [smart-contracts](/Knowledge/Web3/smart-contracts.md). They serve as a middleware between the blockchain and the external APIs.
 
 The oracles enter every data input through an external transaction.
 
-The oracles solve [api-connectivity-problem](/knowledge/Web3/api-connectivity-problem.md).
+The oracles solve [api-connectivity-problem](/Knowledge/Web3/api-connectivity-problem.md).
 
-However, they are prone to the [single-point-of-failure](/knowledge/Web3/single-point-of-failure.md) problem.
+However, they are prone to the [single-point-of-failure](/Knowledge/Web3/single-point-of-failure.md) problem.
 
 > [!tip] Keep in mind
 >

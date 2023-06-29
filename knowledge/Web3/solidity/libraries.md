@@ -2,9 +2,9 @@
 title: Libraries
 ---
 
-In web3 ecosystem in general, libraries take form of the special types of [smart-contracts](/knowledge/Web3/smart-contracts.md) in [index](/knowledge/Web3/solidity/index.md).
+In web3 ecosystem in general, libraries take form of the special types of [smart-contracts](/Knowledge/Web3/smart-contracts.md) in [index](/Knowledge/Web3/solidity/index.md).
 
-- [SafeMath](/knowledge/Web3/solidity/SafeMath.md)
+- [SafeMath](/Knowledge/Web3/solidity/SafeMath.md)
 
 ## SafeMath library declaration example
 
@@ -35,4 +35,4 @@ test = test.add(5); // test now equals 11
 
 When we declare `using SafeMath for uint`, the `uint` we call the function on (`test`) is automatically passed in as the first argument.
 
-Basically `add` just adds 2 `uint`s like `+`, but it also contains an [assert](/knowledge/Web3/solidity/assert.md) to make sure the sum is greater than `a`. This protects us from [overflows](/knowledge/Web3/solidity/overflows.md).
+Basically `add` just adds 2 `uint`s like `+`, but it also contains an [assert](/Knowledge/Web3/solidity/assert.md) to make sure the sum is greater than `a`. This protects us from [overflows](/Knowledge/Web3/solidity/overflows.md).

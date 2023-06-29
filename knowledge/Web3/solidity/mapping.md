@@ -2,7 +2,7 @@
 title: mapping
 ---
 
-_Mapping_ is one of ways of storing organized data in [index](/knowledge/Web3/solidity/index.md).
+_Mapping_ is one of ways of storing organized data in [index](/Knowledge/Web3/solidity/index.md).
 
 It's essentially a key-value store for storing and looking up data.
 
@@ -18,7 +18,7 @@ Mappings are frequently used to associate unique [Ethereum network](/Ethereum%20
 mapping(address => uint) public userLevel;
 ```
 
-We can only use mappings for [state-variable](/knowledge/Web3/solidity/state-variable.md)s.
+We can only use mappings for [state-variable](/Knowledge/Web3/solidity/state-variable.md)s.
 
 ## Accessing value types from a mapping with key types
 

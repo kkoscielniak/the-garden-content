@@ -16,11 +16,11 @@ is a syntax sugar for:
 <Header children={[<ChildComponent truthy />]} />
 ```
 
-We can see that this syntax is similar to how the [render-props](/knowledge/React/render-props.md) are used.
+We can see that this syntax is similar to how the [render-props](/Knowledge/React/render-props.md) are used.
 
 ---
 
-We can use the `children` prop to avoid [prop-drilling](/knowledge/React/prop-drilling.md) (we add props to the child component and don't have to pull `truthy` prop in the `<Header />` component implementation.
+We can use the `children` prop to avoid [prop-drilling](/Knowledge/React/prop-drilling.md) (we add props to the child component and don't have to pull `truthy` prop in the `<Header />` component implementation.
 
 ---
 
