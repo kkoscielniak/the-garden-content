@@ -23,7 +23,7 @@ Even though these examples are basic, it feels right to automate these activitie
 
 ## Useful shortcuts
 
-- `⌃⌘A` - Insert Action by name
+- `⌃ + ⌘ + A` - Insert Action by name
 
 ## Resources
 
