@@ -6,7 +6,7 @@ title: Reading List
 
 Here's the **absolutely incomplete** list of what I've read so far. Sometimes with summary and booknotes.
 
-If you are curious about how I read, [take a look](/reading/how-I-read.md).
+If you are curious about how I read, [take a look](/Reading/how-I-read.md).
 
 > Keep in mind that I've been diagnosed with [ADHD](/ADHD/index.md) recently and I consider some of the advices presented in some of these books hard to apply for neurodivergent people (e.g. _Deep Work_ has lots of great ideas and is a great read overall, but the execution was never easy for me).
 
@@ -18,7 +18,7 @@ If you are curious about how I read, [take a look](/reading/how-I-read.md).
 ## 2023
 
 - 📱 Zioło. Wszystko wyjaśnione 🇵🇱 - Anita Kilian-Kuźmierczyk, Piotr Kuźmierczyk - ⭐⭐⭐⭐
-- 📱 [Make](/reading/booknotes/make) - Pieter Levels - ⭐⭐⭐⭐⭐
+- 📱 [Make](/Reading/booknotes/make.md) - Pieter Levels - ⭐⭐⭐⭐⭐
 - 📱 The Pentester's Blueprint - Phillip L. Wylie, Kim Crawley - ⭐️⭐️⭐️⭐️
 
 ## 2022

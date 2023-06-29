@@ -1,7 +1,9 @@
 ---
 title: Screenshots via SSH
 ---
+
 # Screenshots via SSH
+
 To take a screenshot of another X session running:
 
 ```sh

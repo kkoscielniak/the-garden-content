@@ -6,7 +6,7 @@ title: yabai
 
 > This post was written for [Ahoy Community](https://ahoy.so) and has been translated using the GPT API.
 
-> Also, I've changed my configuration a lot when I was configuring my latest [MacBook Pro](/tools/hardware#workstation).
+> Also, I've changed my configuration a lot when I was configuring my latest [MacBook Pro](/Tools/hardware.md#workstation).
 
 Ahoy! 👋
 
@@ -38,7 +38,7 @@ And thirdly, there are occasional inconsistencies in its operation, with some wi
 
 ### Virtual desktops level
 
-First and foremost, I see the greatest value in managing virtual desktops - I work on one [screen](tools/hardware.md) and six virtual screens:
+First and foremost, I see the greatest value in managing virtual desktops - I work on one [screen](/Tools/hardware.md) and six virtual screens:
 
 - `www` - Arc Browser
 - `dev` - preview of the project I am currently working on, documentation, etc. (usually the second browser window)

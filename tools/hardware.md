@@ -34,7 +34,7 @@ I live in the Apple's ecosystem since 2014. While I am not a definite fanboy of 
 
 - iPhone 13 Pro Max
 - iPad Mini 6 with Apple Pencil
-  - mostly for [reading](/reading/how-I-read.md)
+  - mostly for [reading](/Reading/how-I-read.md)
 - Apple Watch Series 4 Nike Edition
   - I'm waiting for this one to just die, its battery after 5 years is terrible
 - AirPods Pro (1st gen.)

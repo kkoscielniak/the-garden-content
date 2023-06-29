@@ -25,8 +25,10 @@ The good part is that the whole thing is [open-source](https://github.com/kkosci
 
 ## Technical nitpicks
 
-The page you are seeing is built using [VitePress](https://vitepress.dev) and is kept on [GitHub](https://github.com/kkoscielniak/the-garden).
+The page you are seeing is built using [VitePress](https://vitepress.dev) and kept on [GitHub](https://github.com/kkoscielniak/the-garden).
 
 I write using [Obsidian](https://obdidian.md) and keep the Vault (content) in a [separate repo](https://github.com/kkoscielniak/the-garden-content) (referenced by VitePress as a `git submodule`). This should ensure that whenever I decide to use a different _gardening_ solution, the content will is more-or-less safe.
+
+I crafted some scripts for maintaining Obsidian Vault in VitePress (e.g. transforming `[[Wikilinks]]` into `[Markdown](/ones.md)`) which I intend to publish at some point, perhaps in a form of Obsidian Plugin.
 
 The page is hosted on [GitHub Pages](https://pages.github.com/).

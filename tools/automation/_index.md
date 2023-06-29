@@ -9,8 +9,8 @@ I tend to automate mundane and repetitive tasks as often as possible through bot
 
 ## Tools I use
 
-- [Keyboard Maestro](tools/apps/keyboard-maestro.md)
-- [Elgato Stream Deck 2](tools/hardware.md#Workstation)
+- [Keyboard Maestro](/Tools/apps/Keyboard-Maestro.md)
+- [Elgato Stream Deck 2](/Tools/hardware.md#Workstation)
 - BetterTouchTool
 - Raycast
 - Shortcuts (iOS)

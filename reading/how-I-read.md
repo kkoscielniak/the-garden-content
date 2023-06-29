@@ -8,11 +8,11 @@ I read in both English and Polish (depending on the source material). Sometimes 
 
 ## eBooks
 
-Because of note taking and sync features I read eBooks mostly. Usually I read in the Kindle app on the [iPad](tools/hardware/ipad) or the [iPhone](tools/hardware/iphone))
+Because of note taking and sync features I read eBooks mostly. Usually I read in the Kindle app on the [iPad](/tools/hardware/ipad) or the [iPhone](/tools/hardware/iphone))
 
 ### Note taking
 
-I [highlight](tools/kindle-app) a lot. I use these highlight to make [book notes](/reading/reading-list) shortly after finishing a book.
+I [highlight](/tools/kindle-app) a lot. I use these highlight to make [book notes](/reading/reading-list) shortly after finishing a book.
 
 I also have lots of unfinished books on my plate. When I want to get back to one, I create the book notes from the highlights I already made to remember what the book was about and continue reading from where I finished.
 
@@ -31,3 +31,8 @@ In case of audiobooks, I usually google 3-5 summaries, and make my own book note
 ## Why bother with note taking?
 
 It helps me to remember the key takeaways of the book at hand. I use them as the reference as well.
+
+## Resources
+
+- [Bionic Reading](https://bionic-reading.com/)
+  - I don't use it, but I want to start at some point. It's said to help [neurodivergent people](/ADHD/index.md) focus on the content
