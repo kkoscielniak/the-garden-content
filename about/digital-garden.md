@@ -32,3 +32,9 @@ I write using [Obsidian](https://obdidian.md) and keep the Vault (content) in a 
 I crafted some scripts for maintaining Obsidian Vault in VitePress (e.g. transforming `[[Wikilinks]]` into `[Markdown](/ones.md)`) which I intend to publish at some point, perhaps in a form of Obsidian Plugin.
 
 The page is hosted on [GitHub Pages](https://pages.github.com/).
+
+## TODO: 
+- [ ] Fix Search functionality
+- [ ] Fix issues with Sidebar rendering
+	- [ ] Perhaps with forking `vitepress-sidebar` plugin
+- [ ] Fix `vitepress build` cmd
