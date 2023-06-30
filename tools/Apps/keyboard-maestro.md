@@ -25,6 +25,11 @@ Even though these examples are basic, it feels right to automate these activitie
 
 - `⌃ + ⌘ + A` - Insert Action by name
 
+## Text expander fix
+
+By default KM will process escaped HTML characters when expanding a text (via _Insert Text by Typing_ action). You can fix this in the action settings:
+![](/public/km-text-expander-fix.png)
+
 ## Resources
 
 - [Keyboard Maestro Basics course](https://eduweb.pl/marketing-i-biznes/biznes/keyboard-maestro-automatyzacja-macos) 🇵🇱
