@@ -2,9 +2,9 @@
 title: Higher Order Components
 ---
 
-_Higher Order Components_ is a [pattern](/pattern) in [React](/development/react/_index) allowing to enhance the component with additional logic (like authentication, state).
+_Higher Order Components_ is a pattern in React allowing to enhance the component with additional logic (like authentication, state). They are functions that take a component and return a new component.
 
-A HOC in that regard is a component that wraps the enhanced one:
+A HOC in that regard is a component that wraps the one being enhanced:
 
 ```js
 const withHoc = (StatelessComponent) => {
@@ -37,3 +37,5 @@ HOCs have advantages, such as:
 We can nest HOC wrapping, but we need to be mindful about the order of such operations.
 
 The concept of HOCs has its roots in the [functional-programming](/functional-programming) [higher-order-fns](/higher-order-fns).
+
+HOCs allow for `render` hijacking, props and state manipulation and state abstraction.

@@ -2,23 +2,33 @@
 title: Reconciliation
 ---
 
-_Reconciliation_ is the algorithm used by [React](/development/react/_index) every time it has to rerender the application.
+<iframe src="https://www.youtube.com/embed/thsUZEzL8ts" title="The Magic of React&#39;s Reconciliation: Behind the Scenes with a Microsoft Frontend Developer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Initially, when we define the application structure (first render), React goes through the components and builds a tree of them. This tree defines that structure of ours.
+_Reconciliation_ is the algorithm used by [React](/development/react/_index) every time it has to re-render the application.
+
+Initially, when we define the application structure (first render), React goes through the components and builds a **tree** of them ([virtual-dom](/Knowledge/React/virtual-dom.md)). This tree defines that application structure of ours.
 
 It goes from parents to children and then back to parents to confirm the integrity of the components on every level.
 
 Then it builds the DOM tree of the components in the _structure tree_ in a form of HTML tags.
 
-Once we modify any of the the component in the application, React checks if it should rerender said component (`shouldComponentUpdate`, checks if component is pure, has `React.memo` etc.). It also goes to children to see if the changes affect them.
+Once we modify any of the the component in the application, React checks if it should re-render said component (`shouldComponentUpdate`, checks if component is pure, has `React.memo` etc.). It also goes to children to see if the changes affect them.
 
-Based on that React builds list of things to rerender. After that both _structure tree_ and DOM tree are _reconciled_ and the DOM tree gets rerendered.
+Based on that React builds list of things to re-render (using the diff algorithm). After that both _structure tree_ and DOM tree are _reconciled_ and the DOM tree gets re-rendered.
 
-There are two phases of the commit:
+There are two phases of the reconciliation:
 
-1. Rendering - checking if the particular component has to be rerendered (and doing so if needed)
-2. Commit - checking if children have to be rerendered and verifying their integrity
+1. Rendering phase
+   - checking what should be on the screen and if the particular components have to be re-rendered
+1. Commit
+   - applying the changes from [virtual-dom](/Knowledge/React/virtual-dom.md) to _real_ DOM.
 
-> [!tip] To make sure the app is rerendered properly, when we render the lists, we need the `key` prop.
+> [!tip] To make sure the app is re-rendered properly, when we render the lists, we need the [`key`](/Knowledge/React/key.md) prop.
+
+---
+
+In other words reconciliation is batched syncing of [virtual-dom](/Knowledge/React/virtual-dom.md) with real DOM.
+
+---
 
 In React for web reconciliation is a responsibility of `react-dom` package.

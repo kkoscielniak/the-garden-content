@@ -20,7 +20,7 @@ We can see that this syntax is similar to how the [render-props](/Knowledge/Reac
 
 ---
 
-We can use the `children` prop to avoid [prop-drilling](/Knowledge/React/prop-drilling.md) (we add props to the child component and don't have to pull `truthy` prop in the `<Header />` component implementation.
+We can use the `children` prop to avoid [prop-drilling](/Knowledge/React/prop-drilling.md) (in the example above we add props to the child component and don't have to pull `truthy` prop in the `<Header />` component implementation.
 
 ---
 

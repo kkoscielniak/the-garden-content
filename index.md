@@ -21,4 +21,4 @@ You may roam around freely or use `⌘+K` for a site-wide search.
 
 ## Wanna talk?
 
-Just drop me <a href="mailto:krystian@koscielniak.pro">an email</a>, or DM me on [Insta](https://instagram.com/pankoscielniak). I don’t check [LinkedIn](https://www.linkedin.com/in/krystian-koÅ9Bcielniak-629102a7/) a lot (but you may try as well).
+Don't think twice. Drop me <a href="mailto:krystian@koscielniak.pro">an email</a>, or DM me on [Insta](https://instagram.com/pankoscielniak) instead. I don’t check [LinkedIn](https://www.linkedin.com/in/krystian-koÅ9Bcielniak-629102a7/) a lot, but you may try as well.

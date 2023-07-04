@@ -35,6 +35,6 @@ There are various different editions of Burp Suite available:
 - [sequencer](/Knowledge/OffSec/tools/burp/sequencer.md)
 - Extensions support through [extender](/Knowledge/OffSec/tools/burp/extender.md) module
 
-## See also
+## Resources
 
 - [Useful configuration settings](/Knowledge/OffSec/tools/burp/configuration.md)

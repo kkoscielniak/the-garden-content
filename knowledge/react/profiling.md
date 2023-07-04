@@ -1,5 +1,5 @@
 ---
-title: Profiling tools
+title: Profiling React
 ---
 
 `/* [...] */`

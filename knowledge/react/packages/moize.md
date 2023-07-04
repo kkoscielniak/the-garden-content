@@ -2,7 +2,7 @@
 title: moize
 ---
 
-[useMemo](/Knowledge/React/useMemo.md) has its limits - for example if we're [memoizing](/memoization) the same results but in different components:
+[useMemo](/Knowledge/React/useMemo.md) has its limits - for example if we're [memoizing](/Knowledge/Performance/memoisation.md) the same results but in different components:
 
 ```jsx
 const n = 1;
@@ -15,7 +15,7 @@ These second result will be evaluated independently of the fact that value was a
 
 `useMemo` keeps the result only for the component.
 
-This can be remedated using [moize](https://github.com/planttheidea/moize/) library:
+This can be remediated using [moize](/Knowledge/React/packages/moize.md) library:
 
 ```js
 const moizedFibonacci = moize(fibonacci);

@@ -25,7 +25,7 @@ export default App;
 
 ## Useful methods
 
-- `invalidateQueries([key])` - makes the query/queries with a given key invalid, forcing React Query to fetch that data again. Can be used in [useMutation](/Knowledge/React/react-query/useMutation.md) hook -> `onSuccess` method.
+- `invalidateQueries([key])` - makes the query/queries with a given key invalid, forcing React Query to fetch that data again. Can be used in [useMutation](/Knowledge/React/packages/react-query/useMutation.md) hook -> `onSuccess` method.
 - `setQueryData` - used for [optimistic updates](/optimistic%20updates) of the query's cached data
 - `prefetchQuery` - allows to fetch data earlier than it's needed
   - e.g. to improve UX
