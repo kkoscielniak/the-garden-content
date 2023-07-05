@@ -30,7 +30,7 @@ test('renders a number input with a label "Favorite Number"', () => {
 >
 > That's why that import is missing from the examples
 
-## Using DOM Testing Library to write more maintainable tests
+## Using [DOM Testing Library](Knowledge/JavaScript/testing/fundamentals/dom-testing-library.md) to write more maintainable tests
 
 ```tsx
 import * as React from "react";

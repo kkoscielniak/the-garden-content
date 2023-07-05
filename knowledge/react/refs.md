@@ -8,7 +8,7 @@ Created by `React.createRef()` or `useRef` hook, by definition, _refs_ allow to 
 
 ## Manipulating DOM with _refs_
 
-While `refs` are a pretty generic concept, most often they are used to hold DOM element references or component instances.
+While `refs` are a pretty generic concept, most often they are used to hold [DOM](Knowledge/WebDev/DOM.md) element references or component instances.
 
 On rare occasions we may need to access the DOM directly (e.g. to focus a node, measure its size/position etc.). Refs allow us to access the DOM node easily:
 
@@ -30,6 +30,8 @@ const MyInput = forwardRef((props, ref) => {
   return <input {...props} ref={ref} />;
 });
 ```
+
+See more: [React.forwardRef()](Knowledge/React/React.forwardRef().md)
 
 ## Caveats
 

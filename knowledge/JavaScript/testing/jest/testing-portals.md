@@ -46,4 +46,4 @@ test("modal shows the children", () => {
 });
 ```
 
-The `getByTestId` by default is bound to `document.body`, so it's available everywhere. Using `within` allows us to scope `getByTestId` down to the particular DOM node.
+The `getByTestId` by default is bound to `document.body`, so it's available everywhere. Using `within` allows us to scope `getByTestId` down to the particular [DOM](Knowledge/WebDev/DOM.md) node.

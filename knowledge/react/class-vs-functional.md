@@ -4,11 +4,8 @@ title: Class vs Functional components
 
 We have 2 types of components in [React](/Knowledge/React/index.md).
 
-## Class Components
-
-- Class-based Components uses ES6 `class` syntax. It can make use of the [lifecycle](/Knowledge/React/lifecycle.md) methods
-- Class components extend from `React.Component`
-- You have to use `this` keyword to access the props and functions that you declare inside the class components
+- [class-components](Knowledge/React/class-components.md)
+- functional components
 
 ## Functional Components
 

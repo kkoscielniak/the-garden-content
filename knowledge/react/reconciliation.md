@@ -21,7 +21,7 @@ There are two phases of the reconciliation:
 1. Rendering phase
    - checking what should be on the screen and if the particular components have to be re-rendered
 1. Commit
-   - applying the changes from [virtual-dom](/Knowledge/React/virtual-dom.md) to _real_ DOM.
+   - applying the changes from [virtual-dom](/Knowledge/React/virtual-dom.md) to _real_ [DOM](Knowledge/WebDev/DOM.md).
 
 > [!tip] To make sure the app is re-rendered properly, when we render the lists, we need the [`key`](/Knowledge/React/key.md) prop.
 

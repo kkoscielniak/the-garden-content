@@ -9,7 +9,7 @@ Best browser in the world. Made by [The Browser Company](https://thebrowser.comp
 ## Best parts
 
 - Vertical tabs
-  - I use [UltraWide display](Tools/hardware/index.md) that makes using Arc even more convenient
+  - I use [UltraWide display](/Tools/hardware/index.md) that makes using Arc even more convenient
 - Spaces <32
   - I use each space for different areas of my life (Current Project, Current Pet Project)
 - Automated tabs archiving

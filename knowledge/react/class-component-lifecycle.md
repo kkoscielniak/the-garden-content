@@ -1,8 +1,12 @@
 ---
-title: React Lifecycle phases and methods
+title: Class component's lifecycle
 ---
 
-For [class-components](/class-components):
+For [class-components](Knowledge/React/class-components.md):
+
+The [class component](Knowledge/React/class-components.md)'s instance is _alive_ all the time. We can call the side effects in its lifecycle methods. 
+
+It's lifecycle is split into 4 phases. It is created, rendered and mounted. Then it gets re-rendered (updated), usually several times. Ultimately, at some point it gets unmounted.
 
 ## Initialisation
 
@@ -10,7 +14,7 @@ For [class-components](/class-components):
 
 ## Mounting
 
-Creating a corresponding DOM element and connecting to it.
+Creating a corresponding [DOM](Knowledge/WebDev/DOM.md) element and connecting to it.
 
 - `render`
 - `componentWillMount`

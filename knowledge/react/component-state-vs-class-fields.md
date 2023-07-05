@@ -2,7 +2,7 @@
 title: Component state vs Class fields
 ---
 
-> [!tip] This concerns [class-components](/class-components)
+> [!tip] This concerns [class-components](Knowledge/React/class-components.md)
 
 Changing the state of the component causes UI to re-render.
 

@@ -20,3 +20,7 @@ Usually Design Patterns are split into three categories:
 There are many unofficial and undocumented patterns out there that we might find useful in certain situations.
 
 One of the goals is to minimize [coupling](/Knowledge/OOP/coupling.md).
+
+## Resources
+- [Efektywna nauka - Krzysztof Jendrzyca | Przeprogramowani ft. Gość #13](https://anchor.fm/przeprogramowani/episodes/Efektywna-nauka---Krzysztof-Jendrzyca--Przeprogramowani-ft--Go-13-eukqdc)
+	- Mentions design patterns worth learning 🇵🇱

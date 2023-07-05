@@ -1,0 +1,24 @@
+# Phones I've used previously
+- Siemens A52
+	- monochromatic display
+	- [Stack Attack game!](https://www.youtube.com/watch?v=n1VikLSQfr8)
+	- polyphonic ringtones
+- Siemens CF62
+	- really nice clamshell phone
+	- Java games supported <3 
+- Plusfon 401i
+- Sony Ericsson K610i
+- Nokia 5510
+- Sony Ericsson W950
+- BenQ E72
+- LG Swift GT540
+- Blackberry Curve 9300
+	- the best keyboard I've used on mobile phone. Nothing, **even the iPhone** compares to that
+- Nokia Lumia 610
+- Nokia Lumia 625
+	- I got that one from Nokia for free as a reward for [building apps for Windows Phone](https://www.jankowskimichal.pl/2013/11/dvlup-czyli-jak-dostac-nowa-nokie/) 💪
+- iPhone 5C
+- Samsung Galaxy Note 4
+- iPhone 7
+- iPhone X
+- [iPhone 13 Pro Max](Tools/hardware/iphone.md)

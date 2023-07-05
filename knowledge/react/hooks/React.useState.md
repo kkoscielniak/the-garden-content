@@ -15,6 +15,6 @@ setVariable((prevValue) => prevValue + 1);
 
 The `useState` hook cannot be called conditionally. The exact number of calls and the order of the calls have to be the same in **every component render**. They can be used in callbacks, in loops, in another functions.
 
-An exception: hooks may be used in [custom hooks](/private/v6-old-obsidian-publish/Projects/%E2%9A%9B%EF%B8%8F%20kurs-reacta-pl/custom%20hooks.md).
+An exception: hooks may be used in [custom hooks](Knowledge/React/hooks/custom%20hooks.md).
 
-To perform side effects after state has change, you must use the [`useEffect`](/private/v6-old-obsidian-publish/Projects/⚛️%20kurs-reacta-pl/React.useEffect.md).
+To perform side effects after state has change, you must use the [`useEffect`](Knowledge/React/hooks/React.useEffect.md).

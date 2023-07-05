@@ -4,4 +4,6 @@ title: "Now"
 
 # Now
 
-This will be my [nowpage](https://sive.rs/nowff).
+This is my [nowpage](https://sive.rs/nowff).
+
+Apparently I do nothing 🤷‍♂️

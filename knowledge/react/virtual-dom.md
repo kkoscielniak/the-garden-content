@@ -5,7 +5,7 @@ title: Virtual DOM
 # Virtual DOM
 
 The `virtual DOM` is a concept where an ideal, or _virtual_, representation
-of a Ul is kept **in memory** and synced with the _real_ DOM by a library such as `react-dom`.
+of a Ul is kept **in memory** and synced with the _real_ [DOM](Knowledge/WebDev/DOM.md) by a library such as `react-dom`.
 
 This process is called [reconciliation](/Knowledge/React/reconciliation.md).
 

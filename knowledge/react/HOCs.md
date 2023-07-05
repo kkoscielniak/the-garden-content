@@ -34,7 +34,10 @@ HOCs have advantages, such as:
   - allowing to focus on [Presentational components](/Knowledge/React/containers-vs-presentation-components.md)
 - they simplify testing the application
 
-We can nest HOC wrapping, but we need to be mindful about the order of such operations.
+They also have drawbacks: 
+- every HOC is another level in the hierarchy that gets rendered but may not add anything important to the hierarchy. It makes the [DOM](Knowledge/WebDev/DOM.md) messy
+
+> [!danger] We can nest HOC wrapping, but we need to be mindful about the order of nested HOCs
 
 The concept of HOCs has its roots in the [functional-programming](/functional-programming) [higher-order-fns](/higher-order-fns).
 
